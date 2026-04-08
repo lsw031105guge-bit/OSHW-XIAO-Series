@@ -148,7 +148,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=m7xKupqP2ho"
-    image: "https://i.ytimg.com/vi/m7xKupqP2ho/default.jpg"
+    image: "https://i.ytimg.com/vi/m7xKupqP2ho/maxresdefault.jpg"
 
   - name:
       en: "DIY Zigbee Smart Home with ESP32-C6"
@@ -166,7 +166,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=HzwI6xXlNrE"
-    image: "https://i.ytimg.com/vi/HzwI6xXlNrE/default.jpg"
+    image: "https://i.ytimg.com/vi/HzwI6xXlNrE/maxresdefault.jpg"
 
   - name:
       en: "Smart Air Quality Sensor for Home Assistant"
@@ -184,7 +184,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=AuWQobj5qaU"
-    image: "https://i.ytimg.com/vi/AuWQobj5qaU/default.jpg"
+    image: "https://i.ytimg.com/vi/AuWQobj5qaU/maxresdefault.jpg"
 
   - name:
       en: "DIY AI Desk Buddy"
@@ -202,7 +202,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=WIUowv3Huhk"
-    image: "https://i.ytimg.com/vi/WIUowv3Huhk/default.jpg"
+    image: "https://i.ytimg.com/vi/WIUowv3Huhk/maxresdefault.jpg"
 
   - name:
       en: "ESP8266 Cloud Server Project"
@@ -220,7 +220,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=pMWHst7xV3k"
-    image: "https://i.ytimg.com/vi/pMWHst7xV3k/default.jpg"
+    image: "https://i.ytimg.com/vi/pMWHst7xV3k/maxresdefault.jpg"
 
   - name:
       en: "ESP32 WiFiManager Tutorial"
@@ -238,7 +238,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=5HjYeiXsTLg"
-    image: "https://i.ytimg.com/vi/5HjYeiXsTLg/default.jpg"
+    image: "https://i.ytimg.com/vi/5HjYeiXsTLg/maxresdefault.jpg"
 
   - name:
       en: "WIFI Controlled Car with GYROSCOPE"
@@ -256,7 +256,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=QAcoPOQ87BI"
-    image: "https://i.ytimg.com/vi/QAcoPOQ87BI/default.jpg"
+    image: "https://i.ytimg.com/vi/QAcoPOQ87BI/maxresdefault.jpg"
 
   - name:
       en: "Pixel Pendant Tiny ESP32 Wearable Camera"
@@ -274,7 +274,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=E2Ot54sV9kY"
-    image: "https://i.ytimg.com/vi/E2Ot54sV9kY/default.jpg"
+    image: "https://i.ytimg.com/vi/E2Ot54sV9kY/maxresdefault.jpg"
 
   - name:
       en: "ESP32 Voice Recorder Using I2S Microphone"
@@ -292,7 +292,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=7G6bgy2vgbc"
-    image: "https://i.ytimg.com/vi/7G6bgy2vgbc/default.jpg"
+    image: "https://i.ytimg.com/vi/7G6bgy2vgbc/maxresdefault.jpg"
 
   - name:
       en: "ClawStage - Real AI Assistant"
@@ -310,7 +310,7 @@ projects:
       zh: "Unknown"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=l1qC7XyaCVc"
-    image: "https://i.ytimg.com/vi/l1qC7XyaCVc/default.jpg"
+    image: "https://i.ytimg.com/vi/l1qC7XyaCVc/maxresdefault.jpg"
 
   - name:
       en: "Smallest Real-Time GPS Tracker"
