@@ -118,25 +118,6 @@ projects:
 
 
   - name:
-      en: "DIY ESP32 DIV V1.5.0"
-      zh: "DIY ESP32 DIV V1.5.0"
-    description:
-      en: "How to Make DIY ESP32 DIV V1.5.0 - Wiring Display. Build handles complex Wi-Fi, BLE, and Sub-GHz tasks."
-      zh: "DIY ESP32 DIV V1.5.0 接线显示屏教程。"
-    board: "XIAO ESP32"
-    category:
-      en: "Robotics"
-      zh: "机器人"
-    year: 2026
-    author:
-      en: "ARTFOR"
-      zh: "ARTFOR"
-    author_type: "Community"
-    link: "https://www.youtube.com/watch?v=m7xKupqP2ho"
-    image: "https://i.ytimg.com/vi/m7xKupqP2ho/hqdefault.jpg"
-
-
-  - name:
       en: "DIY Zigbee Smart Home with ESP32-C6"
       zh: "DIY Zigbee 智能家居"
     description:
@@ -191,25 +172,6 @@ projects:
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=WIUowv3Huhk"
     image: "https://i.ytimg.com/vi/WIUowv3Huhk/hqdefault.jpg"
-
-
-  - name:
-      en: "ESP8266 Cloud Server Project"
-      zh: "ESP8266 云服务器项目"
-    description:
-      en: "ESP8266 Cloud Server Project."
-      zh: "ESP8266 云服务器项目。"
-    board: "XIAO ESP32"
-    category:
-      en: "Smart Home"
-      zh: "智能家居"
-    year: 2026
-    author:
-      en: "Just For You"
-      zh: "Just For You"
-    author_type: "Community"
-    link: "https://www.youtube.com/watch?v=pMWHst7xV3k"
-    image: "https://i.ytimg.com/vi/pMWHst7xV3k/hqdefault.jpg"
 
 
   - name:
@@ -362,25 +324,6 @@ projects:
     author_type: "Community"
     link: "https://www.instructables.com/Flash-Bee-Handheld-Lightning-Sensing-and-Ranging-De/"
     image: "https://content.instructables.com/FMF/HSOB/MNDMK3NR/FMFHSOBMNDMK3NR.jpg?auto=webp&frame=1&width=2100"
-
-
-  - name:
-      en: "How to Insanely Boost Elytra Speed With MCreator"
-      zh: "如何用 MCreator 疯狂提升 Elytra 速度"
-    description:
-      en: "Minecraft mod tutorial. Maker uses XIAO ESP32-S3 Sense for ESP32/Arduino projects."
-      zh: "Minecraft mod 教程。制作者使用 XIAO ESP32-S3 Sense 开发 ESP32/Arduino 项目。"
-    board: "XIAO ESP32-S3 Sense"
-    category:
-      en: "Tools & Accessories"
-      zh: "工具配件"
-    year: 2026
-    author:
-      en: "jfunky1111"
-      zh: "jfunky1111"
-    author_type: "Community"
-    link: "https://www.instructables.com/How-to-Insanely-Boost-Elytra-Speed-and-Make-It-Cra/"
-    image: "https://content.instructables.com/F79/X67U/MLVCVH2T/F79X67UMLVCVH2T.png?auto=webp&frame=1"
 
 
   - name:
