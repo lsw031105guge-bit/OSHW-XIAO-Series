@@ -1,10 +1,13 @@
 # XIAO Project Hub
 # 项目列表 / Project List
 
+
 projects:
+
 
   # ========== 2026 Community Projects ==========
   # Source: xiao-weekly-search (2026-04-08)
+
 
   - name:
       en: "ESPclock"
@@ -22,7 +25,7 @@ projects:
       zh: "telepath9"
     author_type: "Community"
     link: "https://github.com/telepath9/ESPclock"
-    image: "https://avatars.githubusercontent.com/u/129864057?v=4"
+
 
   - name:
       en: "TagTuner"
@@ -40,7 +43,7 @@ projects:
       zh: "luka6000"
     author_type: "Community"
     link: "https://github.com/luka6000/TagTuner"
-    image: "https://avatars.githubusercontent.com/u/1110994?v=4"
+
 
   - name:
       en: "ProtogenHelmet-ESP32"
@@ -58,7 +61,7 @@ projects:
       zh: "NCPlyn"
     author_type: "Community"
     link: "https://github.com/NCPlyn/ProtogenHelmet-ESP32"
-    image: "https://avatars.githubusercontent.com/u/44117369?v=4"
+
 
   - name:
       en: "piglet"
@@ -76,7 +79,7 @@ projects:
       zh: "Hamspiced"
     author_type: "Community"
     link: "https://github.com/Hamspiced/piglet"
-    image: "https://avatars.githubusercontent.com/u/41132615?v=4"
+
 
   - name:
       en: "meshsat"
@@ -94,7 +97,7 @@ projects:
       zh: "cubeos-app"
     author_type: "Community"
     link: "https://github.com/cubeos-app/meshsat"
-    image: "https://avatars.githubusercontent.com/u/257679218?v=4"
+
 
   - name:
       en: "acw02_esphome"
@@ -112,25 +115,7 @@ projects:
       zh: "devildant"
     author_type: "Community"
     link: "https://github.com/devildant/acw02_esphome"
-    image: "https://avatars.githubusercontent.com/u/8700106?v=4"
 
-  - name:
-      en: "ZephCore"
-      zh: "ZephCore Zephyr 移植"
-    description:
-      en: "MeshCore Zephyr port — Zephyr RTOS port for MeshCore hardware."
-      zh: "MeshCore 硬件的 Zephyr RTOS 移植版本。"
-    board: "XIAO ESP32"
-    category:
-      en: "Tools & Accessories"
-      zh: "工具配件"
-    year: 2026
-    author:
-      en: "liquidraver"
-      zh: "liquidraver"
-    author_type: "Community"
-    link: "https://github.com/liquidraver/ZephCore"
-    image: "https://avatars.githubusercontent.com/u/504870?v=4"
 
   - name:
       en: "DIY ESP32 DIV V1.5.0"
@@ -144,11 +129,12 @@ projects:
       zh: "机器人"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "ARTFOR"
+      zh: "ARTFOR"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=m7xKupqP2ho"
-    image: "https://i.ytimg.com/vi/m7xKupqP2ho/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/m7xKupqP2ho/hqdefault.jpg"
+
 
   - name:
       en: "DIY Zigbee Smart Home with ESP32-C6"
@@ -162,11 +148,12 @@ projects:
       zh: "智能家居"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "BMonster Laboratory"
+      zh: "BMonster Laboratory"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=HzwI6xXlNrE"
-    image: "https://i.ytimg.com/vi/HzwI6xXlNrE/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/HzwI6xXlNrE/hqdefault.jpg"
+
 
   - name:
       en: "Smart Air Quality Sensor for Home Assistant"
@@ -180,11 +167,12 @@ projects:
       zh: "智能家居"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "J-Rat Techworks"
+      zh: "J-Rat Techworks"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=AuWQobj5qaU"
-    image: "https://i.ytimg.com/vi/AuWQobj5qaU/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/AuWQobj5qaU/hqdefault.jpg"
+
 
   - name:
       en: "DIY AI Desk Buddy"
@@ -198,11 +186,12 @@ projects:
       zh: "AI Gadget"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "Pro maker 101"
+      zh: "Pro maker 101"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=WIUowv3Huhk"
-    image: "https://i.ytimg.com/vi/WIUowv3Huhk/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/WIUowv3Huhk/hqdefault.jpg"
+
 
   - name:
       en: "ESP8266 Cloud Server Project"
@@ -216,11 +205,12 @@ projects:
       zh: "智能家居"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "Just For You"
+      zh: "Just For You"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=pMWHst7xV3k"
-    image: "https://i.ytimg.com/vi/pMWHst7xV3k/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/pMWHst7xV3k/hqdefault.jpg"
+
 
   - name:
       en: "ESP32 WiFiManager Tutorial"
@@ -234,11 +224,12 @@ projects:
       zh: "工具配件"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "BJD Solutions"
+      zh: "BJD Solutions"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=5HjYeiXsTLg"
-    image: "https://i.ytimg.com/vi/5HjYeiXsTLg/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/5HjYeiXsTLg/hqdefault.jpg"
+
 
   - name:
       en: "WIFI Controlled Car with GYROSCOPE"
@@ -252,11 +243,12 @@ projects:
       zh: "机器人"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "roboattic Lab"
+      zh: "roboattic Lab"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=QAcoPOQ87BI"
-    image: "https://i.ytimg.com/vi/QAcoPOQ87BI/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/QAcoPOQ87BI/hqdefault.jpg"
+
 
   - name:
       en: "Pixel Pendant Tiny ESP32 Wearable Camera"
@@ -270,11 +262,12 @@ projects:
       zh: "可穿戴"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "SPARKLERS : We Are The Makers"
+      zh: "SPARKLERS : We Are The Makers"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=E2Ot54sV9kY"
-    image: "https://i.ytimg.com/vi/E2Ot54sV9kY/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/E2Ot54sV9kY/hqdefault.jpg"
+
 
   - name:
       en: "ESP32 Voice Recorder Using I2S Microphone"
@@ -288,11 +281,12 @@ projects:
       zh: "工具配件"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "Theinfoflux"
+      zh: "Theinfoflux"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=7G6bgy2vgbc"
-    image: "https://i.ytimg.com/vi/7G6bgy2vgbc/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/7G6bgy2vgbc/hqdefault.jpg"
+
 
   - name:
       en: "ClawStage - Real AI Assistant"
@@ -306,11 +300,12 @@ projects:
       zh: "AI Gadget"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "techiesms"
+      zh: "techiesms"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=l1qC7XyaCVc"
-    image: "https://i.ytimg.com/vi/l1qC7XyaCVc/maxresdefault.jpg"
+    image: "https://i.ytimg.com/vi/l1qC7XyaCVc/hqdefault.jpg"
+
 
   - name:
       en: "Smallest Real-Time GPS Tracker"
@@ -324,11 +319,12 @@ projects:
       zh: "工具配件"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "techiesms"
+      zh: "techiesms"
     author_type: "Community"
     link: "https://www.instructables.com/Smallest-Real-Time-GPS-Tracker/"
-    image: ""
+    image: "https://content.instructables.com/FSE/VUVE/MNGJR06R/FSEVUVEMNGJR06R.jpg?auto=webp&frame=1"
+
 
   - name:
       en: "Droid-Style RC Animatronics Using Bottango and ESP32"
@@ -342,11 +338,12 @@ projects:
       zh: "机器人"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "Donald Bell"
+      zh: "Donald Bell"
     author_type: "Community"
     link: "https://www.instructables.com/Droid-Style-RC-Animatronics-Using-Bottango-and-ESP/"
-    image: ""
+    image: "https://content.instructables.com/F7E/E8BL/MLVCU4TL/F7EE8BLMLVCU4TL.jpg?auto=webp&frame=1&width=2100"
+
 
   - name:
       en: "Flash Bee: Handheld Lightning Sensing and Ranging Device"
@@ -360,11 +357,12 @@ projects:
       zh: "工具配件"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "gokux"
+      zh: "gokux"
     author_type: "Community"
     link: "https://www.instructables.com/Flash-Bee-Handheld-Lightning-Sensing-and-Ranging-De/"
-    image: ""
+    image: "https://content.instructables.com/FMF/HSOB/MNDMK3NR/FMFHSOBMNDMK3NR.jpg?auto=webp&frame=1&width=2100"
+
 
   - name:
       en: "How to Insanely Boost Elytra Speed With MCreator"
@@ -378,11 +376,12 @@ projects:
       zh: "工具配件"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "jfunky1111"
+      zh: "jfunky1111"
     author_type: "Community"
     link: "https://www.instructables.com/How-to-Insanely-Boost-Elytra-Speed-and-Make-It-Cra/"
-    image: ""
+    image: "https://content.instructables.com/F79/X67U/MLVCVH2T/F79X67UMLVCVH2T.png?auto=webp&frame=1"
+
 
   - name:
       en: "Smart 1:64 F1 Display Stand"
@@ -396,15 +395,16 @@ projects:
       zh: "LED 灯光"
     year: 2026
     author:
-      en: "Unknown"
-      zh: "Unknown"
+      en: "gokux"
+      zh: "gokux"
     author_type: "Community"
     link: "https://www.instructables.com/3D-Printed-Hot-Wheels-Display-Stand/"
-    image: ""
+    image: "https://content.instructables.com/FOI/Q1HU/MMZAN0V6/FOIQ1HUMMZAN0V6.jpg?auto=webp&frame=1&width=2100"
+
 
   # ========== 2025 Community Projects ==========
   # Source: https://www.seeedstudio.com/blog/2026/01/29/best-xiao-projects/
-  
+ 
   - name:
       en: "ESP-FLY"
       zh: "ESP-FLY 微型无人机"
@@ -421,6 +421,7 @@ projects:
       zh: "Max Imagination"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=V_mZsiZcy7s"
+
 
   - name:
       en: "Cyberpunk Pocket Watch"
@@ -439,6 +440,7 @@ projects:
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=l75A9TUMXOs"
 
+
   - name:
       en: "Smart Home Assistant Sensor"
       zh: "智能家居传感器"
@@ -455,6 +457,7 @@ projects:
       zh: "FEATURE"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=llA2mdCh7Kc"
+
 
   - name:
       en: "Dasai Mochi"
@@ -473,6 +476,7 @@ projects:
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=QOoszpg0BsM"
 
+
   - name:
       en: "Wi-Fi HaLow Cam"
       zh: "Wi-Fi HaLow 远程摄像头"
@@ -489,6 +493,7 @@ projects:
       zh: "Data Slayer"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=0XhqjaGmKiw"
+
 
   - name:
       en: "Make Your Own Zigbee Devices"
@@ -507,6 +512,7 @@ projects:
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=GOFw5GytG5E"
 
+
   - name:
       en: "DIY Mini FPV Tank"
       zh: "DIY 迷你 FPV 坦克"
@@ -523,6 +529,7 @@ projects:
       zh: "The Wrench"
     author_type: "Community"
     link: "https://www.youtube.com/watch?v=0dbdZrH8toE"
+
 
   - name:
       en: "OpenAI Glasses for Navigation"
@@ -542,6 +549,7 @@ projects:
     link: "https://github.com/AI-FanGe/OpenAIglasses_for_Navigation"
     image: "https://github.com/user-attachments/assets/bc7d1aac-a9e9-4ef8-9d67-224708d0c9fd"
 
+
   - name:
       en: "Flock You"
       zh: "Flock You 摄像头检测器"
@@ -559,6 +567,7 @@ projects:
     author_type: "Community"
     link: "https://github.com/colonelpanichacks/flock-you"
 
+
   - name:
       en: "AntiHunter Perimeter Defense System"
       zh: "AntiHunter 周界防御系统"
@@ -575,6 +584,7 @@ projects:
       zh: "lukeswitz"
     author_type: "Community"
     link: "https://github.com/lukeswitz/AntiHunter"
+
 
   - name:
       en: "ESPHome ePaper Dashboard"
@@ -594,6 +604,7 @@ projects:
     link: "https://github.com/r-morato/HASS-epaper-display"
     image: "https://github.com/user-attachments/assets/8d11993c-9ca8-453f-935b-2174f4e9778e"
 
+
   - name:
       en: "ZMK Dongle Screen YADS"
       zh: "ZMK 键盘接收器屏幕"
@@ -612,6 +623,7 @@ projects:
     link: "https://github.com/janpfischer/zmk-dongle-screen"
     image: "https://github.com/janpfischer/zmk-dongle-screen/blob/main/docs/images/screen.jpg"
 
+
   - name:
       en: "Seeed Home Assistant Discovery"
       zh: "Seeed Home Assistant 自动发现"
@@ -628,6 +640,7 @@ projects:
       zh: "Mengdu Li"
     author_type: "Community"
     link: "https://github.com/limengdu/Seeed-Homeassistant-Discovery"
+
 
   - name:
       en: "LumiTrap Solar UV Bug Trap"
@@ -647,6 +660,7 @@ projects:
     link: "https://www.instructables.com/LumiTrap-3D-Printed-Solar-UV-Bug-Trap-for-Eco-Frie/"
     image: "https://content.instructables.com/FOP/CM09/MBP3RJ8D/FOPCM09MBP3RJ8D.jpg?_gl=1*1g4qwdj*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTA5ODgkajYwJGwwJGgw"
 
+
   - name:
       en: "Spine-like Robot Arm"
       zh: "仿脊椎机械臂"
@@ -664,6 +678,7 @@ projects:
     author_type: "Community"
     link: "https://www.instructables.com/Spine-like-Robot-Arm-With-Gripper/"
     image: "https://content.instructables.com/F3V/HJ5M/M6XMWN7X/F3VHJ5MM6XMWN7X.jpg?_gl=1*1su7zaw*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTEwNDAkajgkbDAkaDA."
+
 
   - name:
       en: "Gus 2.0"
@@ -683,6 +698,7 @@ projects:
     link: "https://www.instructables.com/Gus-20-Uses-Emotions-to-Indicate-Room-Health/"
     image: "https://content.instructables.com/F22/NR5G/M8OIAQPH/F22NR5GM8OIAQPH.jpg?_gl=1*abe4yy*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTExOTckajU2JGwwJGgw"
 
+
   - name:
       en: "BYTE 90"
       zh: "BYTE 90 复古玩具"
@@ -700,6 +716,7 @@ projects:
     author_type: "Community"
     link: "https://labs.alxvtoronto.com/collections/byte-90"
     image: "https://labs.alxvtoronto.com/cdn/shop/collections/BC02.png?v=1744720377&width=1500"
+
 
   - name:
       en: "ESP-DIVE"
@@ -719,6 +736,7 @@ projects:
     link: "https://www.instructables.com/ESP-DIVE-Build-an-ESP32-RC-Submarine-With-FPV-Came/"
     image: "https://content.instructables.com/FE9/5MXR/MGJQ7AZL/FE95MXRMGJQ7AZL.jpg?frame=true&width=1024&height=1024&fit=bounds"
 
+
   - name:
       en: "Hybrid Clock"
       zh: "混合时钟"
@@ -736,6 +754,7 @@ projects:
     author_type: "Community"
     link: "https://www.instructables.com/Hybrid-Clock-Mechanical-Fusion-of-Digital-and-Anal/"
     image: "https://content.instructables.com/FZ9/MP0K/M7YSDPJ1/FZ9MP0KM7YSDPJ1.jpg?frame=true&width=764&height=1024&fit=bounds"
+
 
   - name:
       en: "Prototype Modular Smart Glasses"
@@ -755,6 +774,7 @@ projects:
     link: "https://www.hackster.io/psmooij/pmsg-prototype-modular-smart-glasses-8bd4e6"
     image: "https://hackster.imgix.net/uploads/attachments/1799873/_MmR47vaw5B.blob?auto=compress%2Cformat&w=900&h=675&fit=min"
 
+
   # ========== Official Reference Projects ==========
   - name:
       en: "ESP32-C3 BLE Indoor Positioning"
@@ -773,6 +793,7 @@ projects:
     author_type: "Official"
     link: "https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/projects/reference-projects/XIAO_ESP32-C3_BLE_ESPresense"
 
+
   - name:
       en: "ESP32 CSI Human Detection"
       zh: "ESP32 CSI 人体检测"
@@ -789,6 +810,7 @@ projects:
       zh: "官方"
     author_type: "Official"
     link: "https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/projects/reference-projects/XIAO_ESP32_CSI_Espectre"
+
 
 # ========== 添加新项目模板 / Template for New Projects ==========
 #
@@ -809,13 +831,18 @@ projects:
 #     author_type: "Community" or "Official"
 #     link: "Project URL"
 
+
 # ========== Board Options / 型号选项 ==========
 # XIAO ESP32-S3, XIAO ESP32-S3 Sense, XIAO ESP32-C3, XIAO ESP32-C6, XIAO ESP32-C5
 # XIAO nRF52840, XIAO nRF52840 Sense, XIAO nRF54L15 Sense
 # XIAO RP2040, XIAO RP2350, XIAO SAMD21, XIAO RA4M1
 # XIAO MG24, XIAO MG24 Sense
 
+
 # ========== Category Options / 分类选项 ==========
 # en: Wearables, Robotics, Smart Home, Healthcare, Power Management
 #     AI Gadget, Tools & Accessories, Telecommunication, Mechanical Keyboard, LED Lighting
 # zh: 可穿戴, 机器人, 智能家居, 健康护理, 电源管理, AI Gadget, 工具配件, 通信, 机械键盘, LED 灯光
+
+
+
