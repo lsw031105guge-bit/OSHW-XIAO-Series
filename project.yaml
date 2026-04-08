@@ -1,0 +1,821 @@
+# XIAO Project Hub
+# 项目列表 / Project List
+
+projects:
+
+  # ========== 2026 Community Projects ==========
+  # Source: xiao-weekly-search (2026-04-08)
+
+  - name:
+      en: "ESPclock"
+      zh: "ESPclock 智能数字时钟"
+    description:
+      en: "ESPclock is a smart digital clock based upon ESP32/ESP8266 and TM1637 display."
+      zh: "基于 ESP32/ESP8266 和 TM1637 显示屏的智能数字时钟。"
+    board: "XIAO ESP32"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "telepath9"
+      zh: "telepath9"
+    author_type: "Community"
+    link: "https://github.com/telepath9/ESPclock"
+    image: "https://avatars.githubusercontent.com/u/129864057?v=4"
+
+  - name:
+      en: "TagTuner"
+      zh: "TagTuner NFC 音乐标签播放器"
+    description:
+      en: "Play your digital music with an NFC tag."
+      zh: "使用 NFC 标签播放数字音乐。"
+    board: "XIAO ESP32"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "luka6000"
+      zh: "luka6000"
+    author_type: "Community"
+    link: "https://github.com/luka6000/TagTuner"
+    image: "https://avatars.githubusercontent.com/u/1110994?v=4"
+
+  - name:
+      en: "ProtogenHelmet-ESP32"
+      zh: "Protogen 头盔控制器"
+    description:
+      en: "Controller & Remote & Animator for Furry Protogen helmet using ESP32-S3 & MAX7219/WS2812."
+      zh: "使用 ESP32-S3 和 MAX7219/WS2812 驱动 Furry Protogen 头盔的控制器/遥控器/动画器。"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2026
+    author:
+      en: "NCPlyn"
+      zh: "NCPlyn"
+    author_type: "Community"
+    link: "https://github.com/NCPlyn/ProtogenHelmet-ESP32"
+    image: "https://avatars.githubusercontent.com/u/44117369?v=4"
+
+  - name:
+      en: "piglet"
+      zh: "piglet ESP32 Wardriving 平台"
+    description:
+      en: "Open-source ESP32 wardriving platform that scans and logs Wi-Fi networks with GPS, saves WiGLE-ready CSVs to SD, and provides a real-time web UI. Designed for XIAO S3, C5, and C6 hardware."
+      zh: "开源 ESP32 wardriving 平台，扫描并记录 Wi-Fi 网络，支持 GPS，保存 WiGLE 格式 CSV 到 SD 卡，提供实时 Web UI。为 XIAO S3/C5/C6 设计。"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "Hamspiced"
+      zh: "Hamspiced"
+    author_type: "Community"
+    link: "https://github.com/Hamspiced/piglet"
+    image: "https://avatars.githubusercontent.com/u/41132615?v=4"
+
+  - name:
+      en: "meshsat"
+      zh: "meshsat 卫星桥接器"
+    description:
+      en: "Meshtastic-to-Iridium satellite bridge. One gateway, unlimited mesh nodes, $15/month. Open source."
+      zh: "Meshtastic 到 Iridium 卫星桥接器，一个网关无限 mesh 节点，$15/月，开源。"
+    board: "XIAO ESP32"
+    category:
+      en: "Telecommunication"
+      zh: "通信"
+    year: 2026
+    author:
+      en: "cubeos-app"
+      zh: "cubeos-app"
+    author_type: "Community"
+    link: "https://github.com/cubeos-app/meshsat"
+    image: "https://avatars.githubusercontent.com/u/257679218?v=4"
+
+  - name:
+      en: "acw02_esphome"
+      zh: "acw02_esphome ESPHome 配置"
+    description:
+      en: "Custom ESPHome component for ACW02 board (XIAO ESP32-C3 based)."
+      zh: "基于 XIAO ESP32-C3 的 ACW02 板自定义 ESPHome 组件。"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "devildant"
+      zh: "devildant"
+    author_type: "Community"
+    link: "https://github.com/devildant/acw02_esphome"
+    image: "https://avatars.githubusercontent.com/u/8700106?v=4"
+
+  - name:
+      en: "ZephCore"
+      zh: "ZephCore Zephyr 移植"
+    description:
+      en: "MeshCore Zephyr port — Zephyr RTOS port for MeshCore hardware."
+      zh: "MeshCore 硬件的 Zephyr RTOS 移植版本。"
+    board: "XIAO ESP32"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "liquidraver"
+      zh: "liquidraver"
+    author_type: "Community"
+    link: "https://github.com/liquidraver/ZephCore"
+    image: "https://avatars.githubusercontent.com/u/504870?v=4"
+
+  - name:
+      en: "DIY ESP32 DIV V1.5.0"
+      zh: "DIY ESP32 DIV V1.5.0"
+    description:
+      en: "How to Make DIY ESP32 DIV V1.5.0 - Wiring Display. Build handles complex Wi-Fi, BLE, and Sub-GHz tasks."
+      zh: "DIY ESP32 DIV V1.5.0 接线显示屏教程。"
+    board: "XIAO ESP32"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=m7xKupqP2ho"
+    image: "https://i.ytimg.com/vi/m7xKupqP2ho/default.jpg"
+
+  - name:
+      en: "DIY Zigbee Smart Home with ESP32-C6"
+      zh: "DIY Zigbee 智能家居"
+    description:
+      en: "DIY Zigbee Smart Home with ESP32-C6: Door Sensor, Lights & Temperature."
+      zh: "使用 ESP32-C6 构建 DIY Zigbee 智能家居：门传感器、灯光和温度。"
+    board: "XIAO ESP32-C6"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=HzwI6xXlNrE"
+    image: "https://i.ytimg.com/vi/HzwI6xXlNrE/default.jpg"
+
+  - name:
+      en: "Smart Air Quality Sensor for Home Assistant"
+      zh: "Home Assistant 智能空气质量传感器"
+    description:
+      en: "I Built a Smart Air Quality Sensor for Home Assistant using ESP32-C5."
+      zh: "使用 ESP32-C5 为 Home Assistant 构建智能空气质量传感器。"
+    board: "XIAO ESP32-C5"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=AuWQobj5qaU"
+    image: "https://i.ytimg.com/vi/AuWQobj5qaU/default.jpg"
+
+  - name:
+      en: "DIY AI Desk Buddy"
+      zh: "DIY AI 桌面助手"
+    description:
+      en: "This DIY AI Desk Buddy built with XIAO ESP32-S3 that can understand voice commands and respond like a real assistant."
+      zh: "这个 DIY AI 桌面助手基于 XIAO ESP32-S3，能理解语音命令并像真正的助手一样回应。"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "AI Gadget"
+      zh: "AI Gadget"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=WIUowv3Huhk"
+    image: "https://i.ytimg.com/vi/WIUowv3Huhk/default.jpg"
+
+  - name:
+      en: "ESP8266 Cloud Server Project"
+      zh: "ESP8266 云服务器项目"
+    description:
+      en: "ESP8266 Cloud Server Project."
+      zh: "ESP8266 云服务器项目。"
+    board: "XIAO ESP32"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=pMWHst7xV3k"
+    image: "https://i.ytimg.com/vi/pMWHst7xV3k/default.jpg"
+
+  - name:
+      en: "ESP32 WiFiManager Tutorial"
+      zh: "ESP32 WiFiManager 教程"
+    description:
+      en: "Setup ESP32 WiFi From Your Phone! Ultimate WiFiManager Tutorial featuring XIAO ESP32-C3."
+      zh: "用手机设置 ESP32 WiFi！终极 WiFiManager 教程，介绍 XIAO ESP32-C3。"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=5HjYeiXsTLg"
+    image: "https://i.ytimg.com/vi/5HjYeiXsTLg/default.jpg"
+
+  - name:
+      en: "WIFI Controlled Car with GYROSCOPE"
+      zh: "WiFi 控制陀螺仪小车"
+    description:
+      en: "How to make WIFI Controlled Car with GYROSCOPE and Normal Control using XIAO ESP32-S3, L298N Motor Driver, BO Motor."
+      zh: "如何使用 XIAO ESP32-S3、L298N 电机驱动、BO 电机制作 WiFi 控制陀螺仪小车。"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=QAcoPOQ87BI"
+    image: "https://i.ytimg.com/vi/QAcoPOQ87BI/default.jpg"
+
+  - name:
+      en: "Pixel Pendant Tiny ESP32 Wearable Camera"
+      zh: "Pixel Pendant ESP32 可穿戴相机"
+    description:
+      en: "Pixel Pendant Tiny ESP32 Wearable Camera - Live Stream, Record & Capture. Hardware + software combined into a sleek portable device."
+      zh: "Pixel Pendant 微型 ESP32 可穿戴相机 - 直播、录制和拍摄。硬件+软件结合的时尚便携设备。"
+    board: "XIAO ESP32"
+    category:
+      en: "Wearables"
+      zh: "可穿戴"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=E2Ot54sV9kY"
+    image: "https://i.ytimg.com/vi/E2Ot54sV9kY/default.jpg"
+
+  - name:
+      en: "ESP32 Voice Recorder Using I2S Microphone"
+      zh: "ESP32 I2S 麦克风录音机"
+    description:
+      en: "Build a voice recorder using the XIAO ESP32-C3 and an I2S MEMS microphone."
+      zh: "使用 XIAO ESP32-C3 和 I2S MEMS 麦克风构建录音机。"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=7G6bgy2vgbc"
+    image: "https://i.ytimg.com/vi/7G6bgy2vgbc/default.jpg"
+
+  - name:
+      en: "ClawStage - Real AI Assistant"
+      zh: "ClawStage - 真正的 AI 助手"
+    description:
+      en: "Build an AI Robot from Scratch | ESP32 Voice Assistant Robot Project. Interact, Control Device, Send WhatsApp & more."
+      zh: "从零构建 AI 机器人 | ESP32 语音助手机器人项目。互动、控制设备、发送 WhatsApp 等。"
+    board: "XIAO ESP32"
+    category:
+      en: "AI Gadget"
+      zh: "AI Gadget"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=l1qC7XyaCVc"
+    image: "https://i.ytimg.com/vi/l1qC7XyaCVc/default.jpg"
+
+  - name:
+      en: "Smallest Real-Time GPS Tracker"
+      zh: "最小的实时 GPS 追踪器"
+    description:
+      en: "Building an ultra-compact, real-time GPS tracker using the XIAO ESP32-C3, SIM800C GSM module, and a GNSS GPS module."
+      zh: "使用 XIAO ESP32-C3、SIM800C GSM 模块和 GNSS GPS 模块构建超紧凑型实时 GPS 追踪器。"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.instructables.com/Smallest-Real-Time-GPS-Tracker/"
+    image: ""
+
+  - name:
+      en: "Droid-Style RC Animatronics Using Bottango and ESP32"
+      zh: "使用 Bottango 和 ESP32 的恐龙头机器人"
+    description:
+      en: "Droid-Style RC Animatronics Using Bottango and ESP32 (supports XIAO ESP32-S3)."
+      zh: "使用 Bottango 和 ESP32 构建恐龙头风格遥控机器人（支持 XIAO ESP32-S3）。"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.instructables.com/Droid-Style-RC-Animatronics-Using-Bottango-and-ESP/"
+    image: ""
+
+  - name:
+      en: "Flash Bee: Handheld Lightning Sensing and Ranging Device"
+      zh: "Flash Bee: 手持闪电感应测距设备"
+    description:
+      en: "Handheld lightning sensing and ranging device with round display for XIAO ESP32-C3."
+      zh: "为 XIAO ESP32-C3 设计的手持闪电感应测距设备，配有圆形显示屏。"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.instructables.com/Flash-Bee-Handheld-Lightning-Sensing-and-Ranging-De/"
+    image: ""
+
+  - name:
+      en: "How to Insanely Boost Elytra Speed With MCreator"
+      zh: "如何用 MCreator 疯狂提升 Elytra 速度"
+    description:
+      en: "Minecraft mod tutorial. Maker uses XIAO ESP32-S3 Sense for ESP32/Arduino projects."
+      zh: "Minecraft mod 教程。制作者使用 XIAO ESP32-S3 Sense 开发 ESP32/Arduino 项目。"
+    board: "XIAO ESP32-S3 Sense"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.instructables.com/How-to-Insanely-Boost-Elytra-Speed-and-Make-It-Cra/"
+    image: ""
+
+  - name:
+      en: "Smart 1:64 F1 Display Stand"
+      zh: "智能 1:64 F1 赛车展示台"
+    description:
+      en: "Turn Your Hot Wheels Into Art: Smart 1:64 F1 Display Stand with WLED on XIAO ESP32-C3."
+      zh: "把你的 Hot Wheels 变成艺术品：基于 XIAO ESP32-C3 和 WLED 的智能 1:64 F1 展示台。"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "LED Lighting"
+      zh: "LED 灯光"
+    year: 2026
+    author:
+      en: "Unknown"
+      zh: "Unknown"
+    author_type: "Community"
+    link: "https://www.instructables.com/3D-Printed-Hot-Wheels-Display-Stand/"
+    image: ""
+
+  # ========== 2025 Community Projects ==========
+  # Source: https://www.seeedstudio.com/blog/2026/01/29/best-xiao-projects/
+  
+  - name:
+      en: "ESP-FLY"
+      zh: "ESP-FLY 微型无人机"
+    description:
+      en: "A pocket-sized quadcopter built with XIAO ESP32-S3 and a custom PCB, controlled over phone Wi-Fi with 3D/PVC frame"
+      zh: "基于 XIAO ESP32-S3 的掌上四轴无人机，使用自定义 PCB，通过手机 Wi-Fi 控制"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2025
+    author:
+      en: "Max Imagination"
+      zh: "Max Imagination"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=V_mZsiZcy7s"
+
+  - name:
+      en: "Cyberpunk Pocket Watch"
+      zh: "赛博朋克怀表"
+    description:
+      en: "A cyberpunk-style pocket watch powered by XIAO RP2040 and 1.27'' Round Display, showing time, weekdays, moon phases, and battery life"
+      zh: "基于 XIAO RP2040 和 1.27 英寸圆形显示屏的赛博朋克风格怀表，显示时间、星期、月相和电量"
+    board: "XIAO RP2040"
+    category:
+      en: "Wearables"
+      zh: "可穿戴"
+    year: 2025
+    author:
+      en: "abe's project"
+      zh: "abe's project"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=l75A9TUMXOs"
+
+  - name:
+      en: "Smart Home Assistant Sensor"
+      zh: "智能家居传感器"
+    description:
+      en: "A beginner-friendly tutorial using ESPHome and XIAO ESP32-C6 to build custom smart home sensors with no coding required"
+      zh: "使用 ESPHome 和 XIAO ESP32-C6 构建自定义智能家居传感器的入门教程，无需编程"
+    board: "XIAO ESP32-C6"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2025
+    author:
+      en: "FEATURE"
+      zh: "FEATURE"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=llA2mdCh7Kc"
+
+  - name:
+      en: "Dasai Mochi"
+      zh: "Dasai Mochi 电子宠物"
+    description:
+      en: "A digital pocket-pet animation running on SSD1306 OLED powered by XIAO ESP32-S3 with expressive Rive-based graphics"
+      zh: "在 SSD1306 OLED 上运行的数字宠物动画，由 XIAO ESP32-S3 驱动，具有生动的 Rive 图形"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "AI Gadget"
+      zh: "AI Gadget"
+    year: 2025
+    author:
+      en: "upir"
+      zh: "upir"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=QOoszpg0BsM"
+
+  - name:
+      en: "Wi-Fi HaLow Cam"
+      zh: "Wi-Fi HaLow 远程摄像头"
+    description:
+      en: "A tiny FPV camera based on XIAO ESP32-S3 Sense with Wi-Fi HaLow for long-range, off-grid video streaming"
+      zh: "基于 XIAO ESP32-S3 Sense 的微型 FPV 摄像头，搭配 Wi-Fi HaLow 实现超远距离离网视频传输"
+    board: "XIAO ESP32-S3 Sense"
+    category:
+      en: "Telecommunication"
+      zh: "通信"
+    year: 2025
+    author:
+      en: "Data Slayer"
+      zh: "Data Slayer"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=0XhqjaGmKiw"
+
+  - name:
+      en: "Make Your Own Zigbee Devices"
+      zh: "自制 Zigbee 设备"
+    description:
+      en: "A step-by-step video walkthrough showing how to build Zigbee-enabled smart sensors using XIAO ESP32-C6 for Home Assistant"
+      zh: "逐步视频教程，展示如何使用 XIAO ESP32-C6 构建支持 Zigbee 的智能家居传感器"
+    board: "XIAO ESP32-C6"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2025
+    author:
+      en: "TechTeamGB"
+      zh: "TechTeamGB"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=GOFw5GytG5E"
+
+  - name:
+      en: "DIY Mini FPV Tank"
+      zh: "DIY 迷你 FPV 坦克"
+    description:
+      en: "A smartphone-controlled mini FPV tank with 3D-printed chassis, combining real-time video streaming and robotics"
+      zh: "手机控制的迷你 FPV 坦克，采用 3D 打印底盘，结合实时视频流和机器人技术"
+    board: "XIAO ESP32-S3 Sense"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2025
+    author:
+      en: "The Wrench"
+      zh: "The Wrench"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=0dbdZrH8toE"
+
+  - name:
+      en: "OpenAI Glasses for Navigation"
+      zh: "OpenAI 导航眼镜"
+    description:
+      en: "A smart navigation and assistance system for the visually impaired with tactile guidance, object recognition, and voice interaction"
+      zh: "为视障人士设计的智能导航辅助系统，具备触觉引导、物体识别和语音交互功能"
+    board: "XIAO ESP32-S3 Sense"
+    category:
+      en: "Healthcare"
+      zh: "健康护理"
+    year: 2025
+    author:
+      en: "AI-FanGe"
+      zh: "AI-FanGe"
+    author_type: "Community"
+    link: "https://github.com/AI-FanGe/OpenAIglasses_for_Navigation"
+    image: "https://github.com/user-attachments/assets/bc7d1aac-a9e9-4ef8-9d67-224708d0c9fd"
+
+  - name:
+      en: "Flock You"
+      zh: "Flock You 摄像头检测器"
+    description:
+      en: "Firmware for XIAO ESP32-S3 that detects nearby surveillance cameras via Wi-Fi and BLE scanning with real-time alerts"
+      zh: "XIAO ESP32-S3 固件，通过 Wi-Fi 和 BLE 扫描检测附近的监控摄像头，提供实时警报"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2025
+    author:
+      en: "colonelpanichacks"
+      zh: "colonelpanichacks"
+    author_type: "Community"
+    link: "https://github.com/colonelpanichacks/flock-you"
+
+  - name:
+      en: "AntiHunter Perimeter Defense System"
+      zh: "AntiHunter 周界防御系统"
+    description:
+      en: "An open-source mesh-based perimeter defense system with Wi-Fi/BLE scanning, GPS support, and intrusion alerts"
+      zh: "开源网状周界防御系统，支持 Wi-Fi/BLE 扫描、GPS 定位和入侵警报"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2025
+    author:
+      en: "lukeswitz"
+      zh: "lukeswitz"
+    author_type: "Community"
+    link: "https://github.com/lukeswitz/AntiHunter"
+
+  - name:
+      en: "ESPHome ePaper Dashboard"
+      zh: "ESPHome 电子墨水屏仪表板"
+    description:
+      en: "A low-power Home Assistant dashboard on XIAO 7.5'' ePaper panel showing weather, temperatures, and system metrics"
+      zh: "基于 XIAO 7.5 英寸电子墨水屏的低功耗 Home Assistant 仪表板，显示天气、温度和系统状态"
+    board: "XIAO ESP32"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2025
+    author:
+      en: "r-morato"
+      zh: "r-morato"
+    author_type: "Community"
+    link: "https://github.com/r-morato/HASS-epaper-display"
+    image: "https://github.com/user-attachments/assets/8d11993c-9ca8-453f-935b-2174f4e9778e"
+
+  - name:
+      en: "ZMK Dongle Screen YADS"
+      zh: "ZMK 键盘接收器屏幕"
+    description:
+      en: "A wireless keyboard dongle display built with XIAO nRF52840 and ZMK firmware, showing layer, mode, WPM, and battery status"
+      zh: "基于 XIAO nRF52840 和 ZMK 固件的无线键盘接收器显示屏，显示层级、模式、WPM 和电量"
+    board: "XIAO nRF52840"
+    category:
+      en: "Mechanical Keyboard"
+      zh: "机械键盘"
+    year: 2025
+    author:
+      en: "janpfischer"
+      zh: "janpfischer"
+    author_type: "Community"
+    link: "https://github.com/janpfischer/zmk-dongle-screen"
+    image: "https://github.com/janpfischer/zmk-dongle-screen/blob/main/docs/images/screen.jpg"
+
+  - name:
+      en: "Seeed Home Assistant Discovery"
+      zh: "Seeed Home Assistant 自动发现"
+    description:
+      en: "A lightweight solution simplifying XIAO ESP32/nRF52840 connection to Home Assistant with just a few lines of code"
+      zh: "简化 XIAO ESP32/nRF52840 连接 Home Assistant 的轻量级方案，只需几行代码"
+    board: "XIAO ESP32"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2025
+    author:
+      en: "Mengdu Li"
+      zh: "Mengdu Li"
+    author_type: "Community"
+    link: "https://github.com/limengdu/Seeed-Homeassistant-Discovery"
+
+  - name:
+      en: "LumiTrap Solar UV Bug Trap"
+      zh: "LumiTrap 太阳能紫外线诱虫器"
+    description:
+      en: "A 3D-printed, solar-powered UV insect trap powered by XIAO SAMD21 for eco-friendly, autonomous pest control"
+      zh: "3D 打印的太阳能紫外线诱虫器，由 XIAO SAMD21 驱动，实现环保自主害虫防治"
+    board: "XIAO SAMD21"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2025
+    author:
+      en: "Gokul"
+      zh: "Gokul"
+    author_type: "Community"
+    link: "https://www.instructables.com/LumiTrap-3D-Printed-Solar-UV-Bug-Trap-for-Eco-Frie/"
+    image: "https://content.instructables.com/FOP/CM09/MBP3RJ8D/FOPCM09MBP3RJ8D.jpg?_gl=1*1g4qwdj*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTA5ODgkajYwJGwwJGgw"
+
+  - name:
+      en: "Spine-like Robot Arm"
+      zh: "仿脊椎机械臂"
+    description:
+      en: "3D-printed spine-inspired segments with servo-driven joints and modular gripper, showcasing biomimetic mechanical design"
+      zh: "3D 打印仿脊椎分段结构，配备舵机驱动关节和模块化夹爪，展示仿生机械设计"
+    board: "XIAO nRF52840 Sense"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2025
+    author:
+      en: "Markus Opitz"
+      zh: "Markus Opitz"
+    author_type: "Community"
+    link: "https://www.instructables.com/Spine-like-Robot-Arm-With-Gripper/"
+    image: "https://content.instructables.com/F3V/HJ5M/M6XMWN7X/F3VHJ5MM6XMWN7X.jpg?_gl=1*1su7zaw*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTEwNDAkajgkbDAkaDA."
+
+  - name:
+      en: "Gus 2.0"
+      zh: "Gus 2.0 情绪机器人"
+    description:
+      en: "A desktop robot powered by XIAO ESP32-C3 with sensors monitoring temperature, humidity, and air quality through emotions"
+      zh: "由 XIAO ESP32-C3 驱动的桌面机器人，通过表情显示温度、湿度和空气质量"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2025
+    author:
+      en: "Arpan Mondal"
+      zh: "Arpan Mondal"
+    author_type: "Community"
+    link: "https://www.instructables.com/Gus-20-Uses-Emotions-to-Indicate-Room-Health/"
+    image: "https://content.instructables.com/F22/NR5G/M8OIAQPH/F22NR5GM8OIAQPH.jpg?_gl=1*abe4yy*_ga*Mzg3OTY4NzU3LjE3NzM4OTA5ODc.*_ga_NZSJ72N6RX*czE3NzM4OTA5ODgkbzEkZzEkdDE3NzM4OTExOTckajU2JGwwJGgw"
+
+  - name:
+      en: "BYTE 90"
+      zh: "BYTE 90 复古玩具"
+    description:
+      en: "A retro-inspired, interactive designer toy built with XIAO ESP32-S3, blending collectible design with hackable electronics"
+      zh: "受复古启发的交互式设计师玩具，基于 XIAO ESP32-S3，融合收藏设计可玩电子"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "AI Gadget"
+      zh: "AI Gadget"
+    year: 2025
+    author:
+      en: "Alex Vong"
+      zh: "Alex Vong"
+    author_type: "Community"
+    link: "https://labs.alxvtoronto.com/collections/byte-90"
+    image: "https://labs.alxvtoronto.com/cdn/shop/collections/BC02.png?v=1744720377&width=1500"
+
+  - name:
+      en: "ESP-DIVE"
+      zh: "ESP-DIVE 潜水器"
+    description:
+      en: "A DIY submarine to explore underwater in first-person view using XIAO ESP32-S3 Sense with live video and buoyancy control"
+      zh: "基于 XIAO ESP32-S3 Sense 的 DIY 潜水器，可通过第一人称视角探索水下世界"
+    board: "XIAO ESP32-S3 Sense"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2025
+    author:
+      en: "Max Imagination"
+      zh: "Max Imagination"
+    author_type: "Community"
+    link: "https://www.instructables.com/ESP-DIVE-Build-an-ESP32-RC-Submarine-With-FPV-Came/"
+    image: "https://content.instructables.com/FE9/5MXR/MGJQ7AZL/FE95MXRMGJQ7AZL.jpg?frame=true&width=1024&height=1024&fit=bounds"
+
+  - name:
+      en: "Hybrid Clock"
+      zh: "混合时钟"
+    description:
+      en: "A wall-mounted clock featuring colorful 3D-printed dial with synchronized analog and digital displays via WiFi"
+      zh: "壁挂式时钟，采用彩色 3D 打印表盘，通过 WiFi 同步模拟和数字显示"
+    board: "XIAO ESP32-C6"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2025
+    author:
+      en: "shiura"
+      zh: "shiura"
+    author_type: "Community"
+    link: "https://www.instructables.com/Hybrid-Clock-Mechanical-Fusion-of-Digital-and-Anal/"
+    image: "https://content.instructables.com/FZ9/MP0K/M7YSDPJ1/FZ9MP0KM7YSDPJ1.jpg?frame=true&width=764&height=1024&fit=bounds"
+
+  - name:
+      en: "Prototype Modular Smart Glasses"
+      zh: "模块化智能眼镜原型"
+    description:
+      en: "A DIY open-tech platform transforming regular glasses into customizable smart eyewear with sensors and connectivity"
+      zh: "DIY 开放技术平台，将普通眼镜转变为可定制的智能眼镜，支持传感器和连接功能"
+    board: "XIAO ESP32-S3 Sense"
+    category:
+      en: "Wearables"
+      zh: "可穿戴"
+    year: 2025
+    author:
+      en: "Paul Stefaan Mooij"
+      zh: "Paul Stefaan Mooij"
+    author_type: "Community"
+    link: "https://www.hackster.io/psmooij/pmsg-prototype-modular-smart-glasses-8bd4e6"
+    image: "https://hackster.imgix.net/uploads/attachments/1799873/_MmR47vaw5B.blob?auto=compress%2Cformat&w=900&h=675&fit=min"
+
+  # ========== Official Reference Projects ==========
+  - name:
+      en: "ESP32-C3 BLE Indoor Positioning"
+      zh: "ESP32-C3 BLE 室内定位"
+    description:
+      en: "Indoor positioning using XIAO ESP32-C3 and ESPresense for smart home scene tracking"
+      zh: "使用 XIAO ESP32-C3 和 ESPresense 实现 BLE 室内定位，可用于智能家居场景追踪"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2025
+    author:
+      en: "Official"
+      zh: "官方"
+    author_type: "Official"
+    link: "https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/projects/reference-projects/XIAO_ESP32-C3_BLE_ESPresense"
+
+  - name:
+      en: "ESP32 CSI Human Detection"
+      zh: "ESP32 CSI 人体检测"
+    description:
+      en: "Non-contact human detection using WiFi CSI signals for security and health monitoring"
+      zh: "利用 WiFi CSI 信号进行非接触式人体检测，适用于安防和健康监测"
+    board: "XIAO ESP32"
+    category:
+      en: "Healthcare"
+      zh: "健康护理"
+    year: 2025
+    author:
+      en: "Official"
+      zh: "官方"
+    author_type: "Official"
+    link: "https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/projects/reference-projects/XIAO_ESP32_CSI_Espectre"
+
+# ========== 添加新项目模板 / Template for New Projects ==========
+#
+#   - name:
+#       en: "Project Name"
+#       zh: "项目名称"
+#     description:
+#       en: "Brief description of the project"
+#       zh: "项目简介"
+#     board: "XIAO Model"
+#     category:
+#       en: "Category"
+#       zh: "分类"
+#     year: 2025
+#     author:
+#       en: "Author Name"
+#       zh: "作者名称"
+#     author_type: "Community" or "Official"
+#     link: "Project URL"
+
+# ========== Board Options / 型号选项 ==========
+# XIAO ESP32-S3, XIAO ESP32-S3 Sense, XIAO ESP32-C3, XIAO ESP32-C6, XIAO ESP32-C5
+# XIAO nRF52840, XIAO nRF52840 Sense, XIAO nRF54L15 Sense
+# XIAO RP2040, XIAO RP2350, XIAO SAMD21, XIAO RA4M1
+# XIAO MG24, XIAO MG24 Sense
+
+# ========== Category Options / 分类选项 ==========
+# en: Wearables, Robotics, Smart Home, Healthcare, Power Management
+#     AI Gadget, Tools & Accessories, Telecommunication, Mechanical Keyboard, LED Lighting
+# zh: 可穿戴, 机器人, 智能家居, 健康护理, 电源管理, AI Gadget, 工具配件, 通信, 机械键盘, LED 灯光
