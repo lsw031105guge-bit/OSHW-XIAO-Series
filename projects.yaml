@@ -5,6 +5,314 @@
 projects:
 
 
+  # ========== 2026-04-17 Community Projects ==========
+  # Source: xiao-weekly-search(2026-04-17)
+  - name:
+      en: "larapaper"
+      zh: "larapaper"
+    description:
+      en: "A self-hosted, community-driven server (BYOS) with Recipe support in PHP Laravel. Supports Seeed Studio XIAO 7.5 inch ePaper Panel."
+      zh: "自托管的社区驱动服务器，支持 XIAO 7.5 英寸电子纸面板的 Laravel 应用"
+    board: "XIAO ESP32 series"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "usetrmnl"
+      zh: "usetrmnl"
+    author_type: "Community"
+    link: "https://github.com/usetrmnl/larapaper"
+    image: ""
+
+  - name:
+      en: "trackball"
+      zh: "自定义轨迹球"
+    description:
+      en: "A custom trackball built from scratch using Seeeduino XIAO or Adafruit QT Py with optical mouse sensors. Features Z-axis ball rotation for scroll functionality."
+      zh: "使用 Seeeduino XIAO 或 Adafruit QT Py 从零开始构建的自定义轨迹球"
+    board: "Seeeduino XIAO"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "monroewilliams"
+      zh: "monroewilliams"
+    author_type: "Community"
+    link: "https://github.com/monroewilliams/trackball"
+    image: ""
+
+  - name:
+      en: "esp32-photoframe"
+      zh: "ESP32 电子纸相框"
+    description:
+      en: "Feature-rich firmware for ESP32-based e-paper displays. Supports Seeed Studio XIAO EE02/EE04, Waveshare PhotoPainter, and reTerminal E1002."
+      zh: "基于 ESP32 的电子纸显示器的功能丰富的固件"
+    board: "XIAO ESP32 series"
+    category:
+      en: "LED Lighting"
+      zh: "LED 灯光"
+    year: 2026
+    author:
+      en: "aitjcize"
+      zh: "aitjcize"
+    author_type: "Community"
+    link: "https://github.com/aitjcize/esp32-photoframe"
+    image: ""
+
+  - name:
+      en: "xiaomao"
+      zh: "xiaomao 硬件黑客板"
+    description:
+      en: "A development board for hardware hacking and implant design. Originally based on Seeed Studio XIAO SAMD21, now redesigned around RP2040."
+      zh: "用于硬件黑客和植入物设计的开发板"
+    board: "XIAO SAMD21, RP2040"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "tigard-tools"
+      zh: "tigard-tools"
+    author_type: "Community"
+    link: "https://github.com/tigard-tools/xiaomao"
+    image: ""
+
+  - name:
+      en: "Modxo"
+      zh: "Modxo Xbox 模拟器"
+    description:
+      en: "RP2040 firmware that converts boards like XIAO RP2040 into Original Xbox-compatible LPC peripheral devices for loading BIOS images."
+      zh: "将 XIAO RP2040 等开发板转换为 Original Xbox 兼容的 LPC 外设"
+    board: "XIAO RP2040"
+    category:
+      en: "Gaming"
+      zh: "游戏"
+    year: 2026
+    author:
+      en: "Team-Resurgent"
+      zh: "Team-Resurgent"
+    author_type: "Community"
+    link: "https://github.com/Team-Resurgent/Modxo"
+    image: ""
+
+  - name:
+      en: "Hackflight"
+      zh: "Hackflight 飞控"
+    description:
+      en: "Minimalist flight-control toolkit for makers. Runs on XIAO ESP32-C6 and Teensy 4.0. Uses header-only C++ classes for composable architecture."
+      zh: "极简飞控工具包，支持 XIAO ESP32-C6"
+    board: "XIAO ESP32-C6"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2026
+    author:
+      en: "simondlevy"
+      zh: "simondlevy"
+    author_type: "Community"
+    link: "https://github.com/simondlevy/Hackflight"
+    image: ""
+
+  - name:
+      en: "espradio"
+      zh: "espradio 无线通信库"
+    description:
+      en: "TinyGo package for wireless communication on Espressif ESP32xx microcontrollers. Supports WiFi, DHCP, DNS, NTP, and MQTT."
+      zh: "TinyGo 的 ESP32 无线通信包"
+    board: "XIAO ESP32-C3, XIAO ESP32-S3"
+    category:
+      en: "Telecommunication"
+      zh: "通信"
+    year: 2026
+    author:
+      en: "tinygo-org"
+      zh: "tinygo-org"
+    author_type: "Community"
+    link: "https://github.com/tinygo-org/espradio"
+    image: ""
+
+  - name:
+      en: "micropython-reticulum"
+      zh: "MicroPython Reticulum"
+    description:
+      en: "A pure Python implementation of the Reticulum network stack running on ESP32 microcontrollers. Tested on Seeed XIAO ESP32-S3."
+      zh: "运行在 ESP32 上的纯 Python Reticulum 网络栈实现"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Telecommunication"
+      zh: "通信"
+    year: 2026
+    author:
+      en: "varna9000"
+      zh: "varna9000"
+    author_type: "Community"
+    link: "https://github.com/varna9000/micropython-reticulum"
+    image: ""
+
+  - name:
+      en: "pico-cec"
+      zh: "pico-cec HDMI 适配器"
+    description:
+      en: "HDMI CEC to USB HID keyboard adapter. Supports XIAO RP2350 and Raspberry Pi Pico boards."
+      zh: "HDMI CEC 转 USB HID 键盘适配器"
+    board: "XIAO RP2040, XIAO RP2350"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "gkoh"
+      zh: "gkoh"
+    author_type: "Community"
+    link: "https://github.com/gkoh/pico-cec"
+    image: "https://github.com/user-attachments/assets/7b971a8d-e5fd-4bc1-8ff5-a342004288a5"
+
+  - name:
+      en: "plainFlightController"
+      zh: "plainFlight 飞控"
+    description:
+      en: "Flight stabilisation software for RC multirotor aircraft. Runs on XIAO ESP32-S3 with MPU6050 IMU."
+      zh: "无人机飞行稳定软件，运行在 XIAO ESP32-S3"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2026
+    author:
+      en: "plainFlight"
+      zh: "plainFlight"
+    author_type: "Community"
+    link: "https://github.com/plainFlight/plainFlightController"
+    image: "https://github.com/plainFlight/plainFlightController/blob/main/assets/images/PlainFlight%20Logo%20Large.PNG"
+
+  - name:
+      en: "ShellOS"
+      zh: "ShellOS ESP32 系统"
+    description:
+      en: "A custom OS for ESP32 and XIAO ESP32-C6 boards. Brings shell access, WiFi configuration, and filesystem management."
+      zh: "ESP32 和 XIAO ESP32-C6 的自定义操作系统"
+    board: "XIAO ESP32-C6"
+    category:
+      en: "Tools & Accessories"
+      zh: "工具配件"
+    year: 2026
+    author:
+      en: "passionateSandy2004"
+      zh: "passionateSandy2004"
+    author_type: "Community"
+    link: "https://github.com/passionateSandy2004/ShellOS---OS-made-Just-For-ESP32-Boards"
+    image: ""
+
+  - name:
+      en: "Smart Matter Button using XIAO ESP32 C6"
+      zh: "智能 Matter 按钮"
+    description:
+      en: "Tutorial on building a smart Matter button using Seeed XIAO ESP32 C6 with Arduino."
+      zh: "使用 Seeed XIAO ESP32 C6 构建智能 Matter 按钮的教程"
+    board: "XIAO ESP32-C6"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "techiesms"
+      zh: "techiesms"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=wokw847hjKM"
+    image: "https://i.ytimg.com/vi/wokw847hjKM/maxresdefault.jpg"
+
+  - name:
+      en: "DIY ESPHome Controller with Seeed Xiao ESP32-C3"
+      zh: "DIY ESPHome 控制器"
+    description:
+      en: "Build a custom smart home device using Seeed Xiao ESP32-C3 with ESPHome integration."
+      zh: "使用 Seeed Xiao ESP32-C3 构建自定义智能家居设备"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "Licky's Smart Home Channel"
+      zh: "Licky's Smart Home Channel"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=_xxoEm9-eiI"
+    image: "https://i.ytimg.com/vi/_xxoEm9-eiI/maxresdefault.jpg"
+
+  - name:
+      en: "VFD Display with XIAO ESP32S3 NTP Clock"
+      zh: "VFD 显示 NTP 时钟"
+    description:
+      en: "Build a VFD display clock with animations using Seeed XIAO ESP32S3 and NTP time sync."
+      zh: "使用 XIAO ESP32S3 构建 VFD 显示时钟"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "iHayri1"
+      zh: "iHayri1"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=ToGKmtNXNh8"
+    image: "https://i.ytimg.com/vi/ToGKmtNXNh8/maxresdefault.jpg"
+
+  - name:
+      en: "Solar Powered Water Tank Level Sensor V2"
+      zh: "太阳能水位传感器"
+    description:
+      en: "Build a solar powered wireless water tank level sensor using Xiao ESP32C3 with BLE."
+      zh: "使用 Xiao ESP32C3 和 BLE 构建太阳能无线水位传感器"
+    board: "XIAO ESP32-C3"
+    category:
+      en: "Smart Home"
+      zh: "智能家居"
+    year: 2026
+    author:
+      en: "Electronic Clinic"
+      zh: "Electronic Clinic"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=J7URXH6Qo6Q"
+    image: "https://i.ytimg.com/vi/J7URXH6Qo6Q/maxresdefault.jpg"
+
+  - name:
+      en: "Voice-Controlled Robot Dog"
+      zh: "语音控制机器狗"
+    description:
+      en: "Build a voice-controlled quadruped robot dog using Seeed XIAO ESP32S3."
+      zh: "使用 Seeed XIAO ESP32S3 构建语音控制四足机器狗"
+    board: "XIAO ESP32-S3"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2026
+    author:
+      en: "Tech Talkies"
+      zh: "Tech Talkies"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=QQHyo7KlaQk"
+    image: "https://i.ytimg.com/vi/QQHyo7KlaQk/maxresdefault.jpg"
+
+  - name:
+      en: "Embassy Rust + XIAO BLE - Digital Input"
+      zh: "Embassy Rust XIAO BLE 数字输入"
+    description:
+      en: "Tutorial on using Embassy Rust framework with Seeed XIAO BLE for digital input."
+      zh: "使用 Embassy Rust 框架和 XIAO BLE 的数字输入教程"
+    board: "XIAO BLE"
+    category:
+      en: "Robotics"
+      zh: "机器人"
+    year: 2026
+    author:
+      en: "Sarmad Gulzar"
+      zh: "Sarmad Gulzar"
+    author_type: "Community"
+    link: "https://www.youtube.com/watch?v=Rmd7PqXNT28"
+    image: "https://i.ytimg.com/vi/Rmd7PqXNT28/maxresdefault.jpg"
+
   # ========== 2026 Community Projects ==========
   # Source: xiao-weekly-search (2026-04-08)
 
@@ -753,6 +1061,8 @@ projects:
       zh: "官方"
     author_type: "Official"
     link: "https://github.com/Seeed-Studio/OSHW-XIAO-Series/tree/main/projects/reference-projects/XIAO_ESP32_CSI_Espectre"
+
+
 
 
 # ========== 添加新项目模板 / Template for New Projects ==========
