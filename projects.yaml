@@ -371,12 +371,12 @@ projects:
       en: "Running AI Agent on ESP32 S3 Board"
       zh: "在 ESP32 S3 开发板上运行 AI Agent"
     description:
-      en: "Build the smallest real-time GPS tracker using XIAO ESP32C3 with SOS and spy mode."
-      zh: "用 XIAO ESP32C3 制作最小的实时 GPS 追踪器，支持 SOS 和间谍模式。"
-    board: "XIAO ESP32-C3"
+      en: " Run the ESP Claw AI agent on an ESP32-S3 development board."
+      zh: "在XIAO ESP32-S3上跑ESP Claw。"
+    board: "XIAO ESP32-S3"
     category:
-      en: "IoT Device"
-      zh: "物联网设备"
+      en: "AI Gadget"
+      zh: "AI Gadget"
     year: 2026
     author:
       en: "techiesms"
