@@ -17,7 +17,7 @@
         /* Header */
         header {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-between;
             margin-bottom: 28px;
             flex-wrap: wrap;
@@ -35,14 +35,29 @@
             color: rgba(255,255,255,0.65);
             margin-top: 4px;
         }
-        .lang-btn {
-            padding: 7px 18px;
+        /* Right-side container */
+        .header-actions {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 6px;
+        }
+
+        /* Logo */
+        .logo {
+            height: 36px;
+            width: auto;
+            object-fit: contain;
+        }
+        
+        .lang-btn.small {
+            padding: 4px 12px;
             border: 2px solid rgba(255,255,255,0.4);
             background: transparent;
             color: white;
-            border-radius: 20px;
+            border-radius: 14px;
             cursor: pointer;
-            font-size: 0.875rem;
+            font-size: 0.75rem;
             transition: border-color 0.2s, background 0.2s;
             white-space: nowrap;
         }
@@ -263,28 +278,35 @@
     <div class="container">
         <header>
             <div class="header-text">
-                <h1 id="title">XIAO <span>Project Hub</span></h1>
+                <h1 id="title">Seeed Studio XIAO <span>Project Hub</span></h1>
                 <p id="subtitle">Discover what you can build with XIAO</p>
             </div>
-            <button class="lang-btn" id="langBtn" onclick="toggleLang()">中文</button>
+            <div class="header-actions">
+                <img src="https://raw.githubusercontent.com/Carla-Guo/OSHW-XIAO-Series/main/image/Color_Logo.png" class="logo">
+                <button class="lang-btn small" id="langBtn" onclick="toggleLang()">中文</button>
+            </div>
         </header>
 
         <div class="filters">
+            <div class="filter-group" id="category-filters">
+                <label id="label-category">Category</label>
+                <button class="filter-btn active" data-filter="category" data-value="" id="btn-all-cat">All</button>
+            </div>
+            <div class="filter-group" id="month-filters">
+                <label id="label-month">Month</label>
+                <button class="filter-btn active" data-filter="month" data-value="" id="btn-all-month">All</button>
+            </div>
             <div class="filter-group" id="year-filters">
                 <label id="label-year">Year</label>
                 <button class="filter-btn active" data-filter="year" data-value="" id="btn-all-year">All</button>
-            </div>
-            <div class="filter-group" id="type-filters">
-                <label id="label-type">Source</label>
-                <button class="filter-btn active" data-filter="author_type" data-value="" id="btn-all-type">All</button>
             </div>
             <div class="filter-group" id="board-filters">
                 <label id="label-board">Board</label>
                 <button class="filter-btn active" data-filter="board" data-value="" id="btn-all-board">All</button>
             </div>
-            <div class="filter-group" id="category-filters">
-                <label id="label-category">Category</label>
-                <button class="filter-btn active" data-filter="category" data-value="" id="btn-all-cat">All</button>
+            <div class="filter-group" id="type-filters">
+                <label id="label-type">Source</label>
+                <button class="filter-btn active" data-filter="author_type" data-value="" id="btn-all-type">All</button>
             </div>
         </div>
 
@@ -300,6 +322,7 @@
                         <th id="th-category">Category</th>
                         <th id="th-source">Source</th>
                         <th id="th-year">Year</th>
+                        <th id="th-month">Month</th>
                         <th id="th-author">Author</th>
                     </tr>
                 </thead>
@@ -322,9 +345,9 @@
 
         const LANG = {
             en: {
-                title: ['XIAO ', 'Project Hub'],
+                title: ['Seeed Studio XIAO ', 'Project Hub'],
                 subtitle: 'Discover what you can build with XIAO',
-                labelYear: 'Year', labelType: 'Source', labelBoard: 'Board', labelCategory: 'Category',
+                labelYear: 'Year', labelMonth: 'Month', labelType: 'Source', labelBoard: 'Board', labelCategory: 'Category',
                 btnAll: 'All', btnOfficial: 'Official', btnCommunity: 'Community',
                 thName: 'Project', thBoard: 'Board', thCategory: 'Category',
                 thSource: 'Source', thYear: 'Year', thAuthor: 'Author',
@@ -337,9 +360,9 @@
                 langBtn: '中文'
             },
             zh: {
-                title: ['XIAO ', '项目中心'],
+                title: ['Seeed Studio XIAO ', '项目中心'],
                 subtitle: '探索用 XIAO 能做的精彩项目',
-                labelYear: '年份', labelType: '来源', labelBoard: '型号', labelCategory: '场景',
+                labelYear: '年份', labelMonth: '月份',labelType: '来源', labelBoard: '型号', labelCategory: '场景',
                 btnAll: '全部', btnOfficial: '官方', btnCommunity: '社区',
                 thName: '项目名称', thBoard: '开发板', thCategory: '分类',
                 thSource: '来源', thYear: '年份', thAuthor: '作者',
@@ -353,9 +376,22 @@
             }
         };
 
+        const MONTH_NAMES = {
+            en: [
+                'Jan', 'Feb', 'Mar', 'Apr',
+                'May', 'Jun', 'Jul', 'Aug',
+                'Sep', 'Oct', 'Nov', 'Dec'
+            ],
+            zh: [
+                '1月', '2月', '3月', '4月',
+                '5月', '6月', '7月', '8月',
+                '9月', '10月', '11月', '12月'
+            ]
+        };
+
         let PROJECTS_DATA = [];
         let currentLang = 'en';
-        let activeFilters = { year: '', author_type: '', board: '', category: '' };
+        let activeFilters = { year: '', month: '', author_type: '', board: '', category: '' };
         let openRowIndex = -1;
 
         function t(obj) { return typeof obj === 'string' ? obj : (obj[currentLang] || obj.en); }
@@ -365,6 +401,10 @@
         function hasLang(p, lang) {
             if (typeof p.name === 'string') return true;
             return !!(p.name && p.name[lang]);
+        }
+
+        function formatMonth(month) {
+            return MONTH_NAMES[currentLang][month - 1] || month;
         }
 
         function getPreviewImage(p) {
@@ -413,10 +453,12 @@
             titleEl.innerHTML = L.title[0] + '<span>' + L.title[1] + '</span>';
             document.getElementById('subtitle').textContent = L.subtitle;
             document.getElementById('label-year').textContent = L.labelYear;
+            document.getElementById('label-month').textContent = L.labelMonth;
             document.getElementById('label-type').textContent = L.labelType;
             document.getElementById('label-board').textContent = L.labelBoard;
             document.getElementById('label-category').textContent = L.labelCategory;
             document.getElementById('btn-all-year').textContent = L.btnAll;
+            document.getElementById('btn-all-month').textContent = L.btnAll;
             document.getElementById('btn-all-type').textContent = L.btnAll;
             document.getElementById('btn-all-board').textContent = L.btnAll;
             document.getElementById('btn-all-cat').textContent = L.btnAll;
@@ -428,13 +470,15 @@
             document.getElementById('th-category').textContent = L.thCategory;
             document.getElementById('th-source').textContent = L.thSource;
             document.getElementById('th-year').textContent = L.thYear;
+            document.getElementById('th-month').textContent = L.thMonth;
             document.getElementById('th-author').textContent = L.thAuthor;
         }
 
         function initFilters() {
             const langProjects = PROJECTS_DATA.filter(p => hasLang(p, currentLang));
             const years = [...new Set(langProjects.map(p => p.year))].sort((a, b) => b - a);
-            const boards = [...new Set(langProjects.map(p => p.board))].sort();
+            const months = [...new Set(langProjects.map(p => p.month))].sort((a, b) => b - a);
+            const boards = [...new Set(langProjects.flatMap(p => p.board.split(',').map(b => b.trim())))].sort();
             const categories = [...new Set(langProjects.map(p => t(p.category)))].sort();
             const L = LANG[currentLang];
 
@@ -447,6 +491,15 @@
                 btn.dataset.value = year;
                 btn.textContent = year;
                 document.getElementById('year-filters').appendChild(btn);
+            });
+
+            months.forEach(month => {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn';
+                btn.dataset.filter = 'month';
+                btn.dataset.value = month;
+                btn.textContent = formatMonth(month);
+                document.getElementById('month-filters').appendChild(btn);
             });
 
             const typeContainer = document.getElementById('type-filters');
@@ -501,8 +554,9 @@
             const filtered = PROJECTS_DATA.filter(p => {
                 if (!hasLang(p, currentLang)) return false;
                 if (activeFilters.year && p.year != activeFilters.year) return false;
+                if (activeFilters.month && p.month != activeFilters.month) return false;
                 if (activeFilters.author_type && p.author_type !== activeFilters.author_type) return false;
-                if (activeFilters.board && p.board !== activeFilters.board) return false;
+                if (activeFilters.board && !p.board.split(',').map(b => b.trim()).includes(activeFilters.board)) {return false;}
                 if (activeFilters.category && t(p.category) !== activeFilters.category) return false;
                 return true;
             });
@@ -532,10 +586,11 @@
                     <td><span class="tag tag-category">${t(p.category)}</span></td>
                     <td>${sourceTag}</td>
                     <td>${p.year}</td>
+                    <td>${formatMonth(p.month) || '-'}</td>
                     <td>${t(p.author)}</td>
                 </tr>
                 <tr class="detail-row" id="detail-${i}">
-                    <td class="detail-cell" colspan="7">
+                    <td class="detail-cell" colspan="8">
                         <div class="detail-inner">
                             ${imgHtml}
                             <div class="detail-body">
