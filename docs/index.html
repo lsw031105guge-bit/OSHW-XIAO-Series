@@ -190,6 +190,7 @@
             white-space: nowrap;
         }
         .tag-board    { background: rgba(0,73,102,0.6);   color: #7dd3f0; border: 1px solid rgba(125,211,240,0.2); }
+        .tag-board-cell { display: flex; flex-wrap: wrap; gap: 3px; }
         .tag-category { background: rgba(143,195,31,0.15); color: #b8e05a; border: 1px solid rgba(143,195,31,0.25); }
         .tag-youtube     { background: rgba(255,0,0,0.15);  color: #ff4444; border: 1px solid rgba(255,0,0,0.25); }
         .tag-github      { background: rgba(255,255,255,0.12); color: #ffffff; border: 1px solid rgba(255,255,255,0.2); }
@@ -588,7 +589,7 @@
                 <tr class="project-row" data-idx="${i}" onclick="toggleDetail(${i}, this)">
                     <td>${i + 1}</td>
                     <td><span class="project-name"><span class="expand-icon">&#9658;</span>${t(p.name)}</span></td>
-                    <td><span class="tag tag-board">${p.board}</span></td>
+                    <td><div class="tag-board-cell">${p.board.split(',').map(b => `<span class="tag tag-board">${b.trim()}</span>`).join('')}</div></td>
                     <td><span class="tag tag-category">${t(p.category)}</span></td>
                     <td>${sourceTag}</td>
                     <td>${p.year}</td>
