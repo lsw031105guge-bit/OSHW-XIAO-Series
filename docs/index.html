@@ -17,17 +17,24 @@
         /* Header */
         header {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             justify-content: space-between;
             margin-bottom: 28px;
             flex-wrap: wrap;
             gap: 12px;
         }
         .header-text h1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
             font-size: 2rem;
             color: #ffffff;
             font-weight: 700;
             letter-spacing: -0.5px;
+
+            line-height: 1;
+            margin: 0;
         }
         .header-text h1 span { color: #8FC31F; }
         .header-text p {
@@ -43,13 +50,15 @@
             gap: 6px;
         }
 
-        /* Logo */
-        .logo {
-            height: 36px;
+        .header-logo {
+            height: 40px;
             width: auto;
             object-fit: contain;
+            vertical-align: bottom;
+            /* margin-right: 0;
+            margin-top: 0; */
         }
-        
+
         .lang-btn.small {
             padding: 4px 12px;
             border: 2px solid rgba(255,255,255,0.4);
@@ -283,11 +292,10 @@
     <div class="container">
         <header>
             <div class="header-text">
-                <h1 id="title">Seeed Studio XIAO <span>Project Hub</span></h1>
+                <h1 id="title"><img src="https://raw.githubusercontent.com/Carla-Guo/OSHW-XIAO-Series/main/image/White_Logo.png" class="header-logo">XIAO <span>Project Hub</span></h1>
                 <p id="subtitle">Discover what you can build with XIAO</p>
             </div>
             <div class="header-actions">
-                <img src="https://raw.githubusercontent.com/Carla-Guo/OSHW-XIAO-Series/main/image/Color_Logo.png" class="logo">
                 <button class="lang-btn small" id="langBtn" onclick="toggleLang()">中文</button>
             </div>
         </header>
@@ -350,7 +358,7 @@
 
         const LANG = {
             en: {
-                title: ['Seeed Studio XIAO ', 'Project Hub'],
+                title: ['<img src="https://raw.githubusercontent.com/Carla-Guo/OSHW-XIAO-Series/main/image/White_Logo.png" class="header-logo">XIAO ', 'Project Hub'],
                 subtitle: 'Discover what you can build with XIAO',
                 labelYear: 'Year', labelMonth: 'Month', labelType: 'Source', labelBoard: 'Board', labelCategory: 'Category',
                 btnAll: 'All', btnOfficial: 'Official', btnCommunity: 'Community',
@@ -365,7 +373,7 @@
                 langBtn: '中文'
             },
             zh: {
-                title: ['Seeed Studio XIAO ', '项目中心'],
+                 title: ['<img src="https://raw.githubusercontent.com/Carla-Guo/OSHW-XIAO-Series/main/image/White_Logo.png" class="header-logo">XIAO ', '项目中心'],
                 subtitle: '探索用 XIAO 能做的精彩项目',
                 labelYear: '年份', labelMonth: '月份', labelType: '来源', labelBoard: '型号', labelCategory: '场景',
                 btnAll: '全部', btnOfficial: '官方', btnCommunity: '社区',
@@ -482,6 +490,13 @@
         function initFilters() {
             const langProjects = PROJECTS_DATA.filter(p => hasLang(p, currentLang));
             const years = [...new Set(langProjects.map(p => p.year))].sort((a, b) => b - a);
+
+            // Set default to latest year and latest month
+            const latestYear = years[0];
+            const latestMonth = [...new Set(langProjects.filter(p => p.year === latestYear).map(p => p.month))].sort((a, b) => b - a)[0];
+            activeFilters.year = String(latestYear);
+            activeFilters.month = String(latestMonth);
+
             const months = [...new Set(langProjects.map(p => p.month))].sort((a, b) => b - a);
             const boards = [...new Set(langProjects.flatMap(p => p.board.split(',').map(b => b.trim())))].sort();
             const categories = [...new Set(langProjects.map(p => t(p.category)))].sort();
@@ -537,6 +552,7 @@
             });
 
             document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
                 const active = activeFilters[btn.dataset.filter];
                 if (btn.dataset.value === String(active)) btn.classList.add('active');
                 btn.addEventListener('click', () => {

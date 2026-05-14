@@ -249,7 +249,7 @@ projects:
     en: 6 DoF input peripheral designed for CAD navigation, powered by ZMK firmware,
       wireless with integrated magnetometers.
     zh: 6 自由度 CAD 导航输入外设，采用 ZMK 固件，无线设计，集成磁力计。
-  board: XIAO nRF52840
+  board: XIAO nRF52840 (XIAO BLE)
   category:
     en: Tools & Accessories
     zh: 工具配件
@@ -287,7 +287,7 @@ projects:
     en: Morse code key/paddle to USB HID adapter using Seeed Studio XIAO SAMD21. Implements
       all nine keyer modes from Vail.
     zh: 使用 Seeed Studio XIAO SAMD21 的莫尔斯电码键/桨转 USB HID 适配器，实现 Vail 的全部 9 种电键模式。
-  board: XIAO SAMD21
+  board: XIAO SAMD21 (Seeeduino XIAO)
   category:
     en: Tools & Accessories
     zh: 工具配件
@@ -437,7 +437,7 @@ projects:
     en: Mesh networking solution using XIAO nRF52840 with Meshtastic firmware for
       long-range off-grid communication.
     zh: 用 XIAO nRF52840 加 Meshtastic 固件实现远距离离线 mesh 网络通信。
-  board: XIAO nRF52840
+  board: XIAO nRF52840 (XIAO BLE)
   category:
     en: Telecommunication
     zh: 通信
@@ -475,7 +475,7 @@ projects:
     en: A custom trackball built from scratch using Seeeduino XIAO or Adafruit QT
       Py with optical mouse sensors. Features Z-axis ball rotation for scroll functionality.
     zh: 使用 Seeeduino XIAO 或 Adafruit QT Py 从零开始构建的自定义轨迹球
-  board: XIAO SAMD21
+  board: XIAO SAMD21 (Seeeduino XIAO)
   category:
     en: Tools & Accessories
     zh: 工具配件
@@ -513,7 +513,7 @@ projects:
     en: A development board for hardware hacking and implant design. Originally based
       on Seeed Studio XIAO SAMD21, now redesigned around RP2040.
     zh: 用于硬件黑客和植入物设计的开发板
-  board: XIAO SAMD21, XIAO RP2040
+  board: XIAO SAMD21 (Seeeduino XIAO), XIAO RP2040
   category:
     en: Tools & Accessories
     zh: 工具配件
@@ -757,7 +757,7 @@ projects:
   description:
     en: Tutorial on using Embassy Rust framework with Seeed XIAO BLE for digital input.
     zh: 使用 Embassy Rust 框架和 XIAO BLE 的数字输入教程
-  board: XIAO nRF52840
+  board: XIAO nRF52840 (XIAO BLE)
   category:
     en: Robotics
     zh: 机器人
@@ -1061,7 +1061,7 @@ projects:
     en: gokux
     zh: gokux
   author_type: Instructables
-  link: https://www.instructables.com/Flash-Bee-Handheld-Lightning-Sensing-and-Ranging-De/
+  link: https://www.instructables.com/Flash-Bee-Handheld-Lighting-Sensing-and-Ranging-De/
   image: https://content.instructables.com/FMF/HSOB/MNDMK3NR/FMFHSOBMNDMK3NR.jpg?auto=webp&frame=1&width=2100
 - name:
     en: Smart 1:64 F1 Display Stand
@@ -1289,7 +1289,7 @@ projects:
     en: A wireless keyboard dongle display built with XIAO nRF52840 and ZMK firmware,
       showing layer, mode, WPM, and battery status
     zh: 基于 XIAO nRF52840 和 ZMK 固件的无线键盘接收器显示屏，显示层级、模式、WPM 和电量
-  board: XIAO nRF52840
+  board: XIAO nRF52840 (XIAO BLE)
   category:
     en: Mechanical Keyboard
     zh: 机械键盘
@@ -1308,7 +1308,7 @@ projects:
     en: A lightweight solution simplifying XIAO ESP32/nRF52840 connection to Home
       Assistant with just a few lines of code
     zh: 简化 XIAO ESP32/nRF52840 连接 Home Assistant 的轻量级方案，只需几行代码
-  board: XIAO ESP32-C3, XIAO ESP32-S3, XIAO ESP32-C5, XIAO ESP32-C6, XIAO nRF52840
+  board: XIAO ESP32-C3, XIAO ESP32-S3, XIAO ESP32-C5, XIAO ESP32-C6, XIAO nRF52840 (XIAO BLE)
   category:
     en: Smart Home
     zh: 智能家居
@@ -1326,7 +1326,7 @@ projects:
     en: A 3D-printed, solar-powered UV insect trap powered by XIAO SAMD21 for eco-friendly,
       autonomous pest control
     zh: 3D 打印的太阳能紫外线诱虫器，由 XIAO SAMD21 驱动，实现环保自主害虫防治
-  board: XIAO SAMD21
+  board: XIAO SAMD21 (Seeeduino XIAO)
   category:
     en: Smart Home
     zh: 智能家居
@@ -1345,7 +1345,7 @@ projects:
     en: 3D-printed spine-inspired segments with servo-driven joints and modular gripper,
       showcasing biomimetic mechanical design
     zh: 3D 打印仿脊椎分段结构，配备舵机驱动关节和模块化夹爪，展示仿生机械设计
-  board: XIAO nRF52840 Sense
+  board: XIAO nRF52840 Sense (XIAO BLE Sense)
   category:
     en: Robotics
     zh: 机器人
