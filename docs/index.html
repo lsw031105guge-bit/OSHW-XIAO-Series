@@ -45,9 +45,9 @@
         /* Right-side container */
         .header-actions {
             display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 6px;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
         }
 
         .header-logo {
@@ -58,6 +58,23 @@
             /* margin-right: 0;
             margin-top: 0; */
         }
+
+        .contribute-btn {
+            padding: 5px 15px;
+            background: #8FC31F;
+            color: #004966;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            transition: background 0.15s, transform 0.1s;
+            white-space: nowrap;
+        }
+        .contribute-btn:hover { background: #a0d422; transform: translateY(-1px); }
 
         .lang-btn.small {
             padding: 4px 12px;
@@ -272,16 +289,6 @@
             font-size: 1rem;
         }
 
-        /* Footer */
-        .footer {
-            text-align: center;
-            color: rgba(255,255,255,0.35);
-            margin-top: 32px;
-            font-size: 0.82rem;
-        }
-        .footer a { color: rgba(143,195,31,0.8); text-decoration: none; }
-        .footer a:hover { color: #8FC31F; }
-
         @media (max-width: 640px) {
             .header-text h1 { font-size: 1.5rem; }
             .detail-inner { padding: 14px 16px; gap: 16px; }
@@ -296,6 +303,7 @@
                 <p id="subtitle">Discover what you can build with XIAO</p>
             </div>
             <div class="header-actions">
+                <a class="contribute-btn" id="contributeBtn" href="https://docs.google.com/forms/d/e/1FAIpQLSdiju4D3-h0fZavfZeRrXcOtAh-Lb7Ll8zbrkziB94RCvbZrQ/viewform?usp=publish-editor" target="_blank" rel="noopener">Contribute Project</a>
                 <button class="lang-btn small" id="langBtn" onclick="toggleLang()">中文</button>
             </div>
         </header>
@@ -343,10 +351,6 @@
             </table>
             <div class="no-results" id="no-results" style="display:none;"></div>
         </div>
-
-        <div class="footer">
-            <p id="footer-text">Data source: <a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/projects.yaml" target="_blank">projects.yaml</a> | Contributions welcome!</p>
-        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
@@ -369,8 +373,8 @@
                 loadError: 'Failed to load projects.yaml.',
                 noResults: 'No matching projects found.',
                 viewProject: 'View Project →',
-                footer: 'Data source: <a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/projects.yaml" target="_blank">projects.yaml</a> | Contributions welcome!',
-                langBtn: '中文'
+                langBtn: '中文',
+                contributeBtn: 'Contribute Project'
             },
             zh: {
                  title: ['<img src="https://raw.githubusercontent.com/Seeed-Studio/OSHW-XIAO-Series/main/image/White_Logo.png" class="header-logo">XIAO ', '项目中心'],
@@ -384,8 +388,8 @@
                 loadError: '无法加载 projects.yaml。',
                 noResults: '没有找到匹配的项目。',
                 viewProject: '查看项目 →',
-                footer: '数据来源：<a href="https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/projects.yaml" target="_blank">projects.yaml</a> | 欢迎贡献项目！',
-                langBtn: 'English'
+                langBtn: 'English',
+                contributeBtn: '贡献项目'
             }
         };
 
@@ -476,8 +480,8 @@
             document.getElementById('btn-all-board').textContent = L.btnAll;
             document.getElementById('btn-all-cat').textContent = L.btnAll;
             document.getElementById('no-results').textContent = L.noResults;
-            document.getElementById('footer-text').innerHTML = L.footer;
             document.getElementById('langBtn').textContent = L.langBtn;
+            document.getElementById('contributeBtn').textContent = L.contributeBtn;
             document.getElementById('th-name').textContent = L.thName;
             document.getElementById('th-board').textContent = L.thBoard;
             document.getElementById('th-category').textContent = L.thCategory;

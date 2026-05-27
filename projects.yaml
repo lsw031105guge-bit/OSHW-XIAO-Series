@@ -420,24 +420,7 @@ projects:
   author_type: YouTube
   link: https://www.youtube.com/watch?v=_xxoEm9-eiI
   image: https://i.ytimg.com/vi/_xxoEm9-eiI/maxresdefault.jpg
-- name:
-    en: 'ESP32 Matter Tutorial #3 | Smart Matter Button using XIAO ESP32 C6'
-    zh: 'ESP32 Matter 教程 #3 | 使用 XIAO ESP32 C6 的智能 Matter 按钮'
-  description:
-    en: Create a smart Matter button using XIAO ESP32 C6.
-    zh: 使用 XIAO ESP32 C6 创建智能 Matter 按钮。
-  board: XIAO ESP32-C6
-  category:
-    en: Smart Home
-    zh: 智能家居
-  year: 2026
-  month: 4
-  author:
-    en: techiesms
-    zh: techiesms
-  author_type: YouTube
-  link: https://www.youtube.com/watch?v=wokw847hjKM
-  image: https://i.ytimg.com/vi/wokw847hjKM/maxresdefault.jpg
+
 - name:
     en: How I made a free Internet Radio with ESP32
     zh: 我用 ESP32 做了一个免费的网络收音机
@@ -476,24 +459,6 @@ projects:
   author_type: YouTube
   link: https://www.youtube.com/watch?v=ENxouRuxUlE
   image: https://i.ytimg.com/vi/ENxouRuxUlE/maxresdefault.jpg
-- name:
-    en: VFD Display from Aliexpress with XIAO ESP32S3, as NTP Clock with Animations
-    zh: 用 XIAO ESP32S3 驱动 VFD 显示屏制作 NTP 动画时钟
-  description:
-    en: Build a VFD display NTP clock with animations using Seeed XIAO ESP32S3.
-    zh: 使用 Seeed XIAO ESP32S3 驱动 VFD 显示屏，制作带动画的 NTP 时钟。
-  board: XIAO ESP32-S3
-  category:
-    en: Smart Home
-    zh: 智能家居
-  year: 2026
-  month: 4
-  author:
-    en: iHayri1
-    zh: iHayri1
-  author_type: YouTube
-  link: https://www.youtube.com/watch?v=ToGKmtNXNh8
-  image: https://i.ytimg.com/vi/ToGKmtNXNh8/maxresdefault.jpg
 - name:
     en: Build a Speaking Alarm Clock Using XIAO ESP32-S3
     zh: 用 XIAO ESP32-S3 制作语音报时闹钟
@@ -1023,24 +988,6 @@ projects:
   author_type: YouTube
   link: https://www.youtube.com/watch?v=wokw847hjKM
   image: https://i.ytimg.com/vi/wokw847hjKM/maxresdefault.jpg
-- name:
-    en: DIY ESPHome Controller with Seeed Xiao ESP32-C3
-    zh: DIY ESPHome 控制器
-  description:
-    en: Build a custom smart home device using Seeed Xiao ESP32-C3 with ESPHome integration.
-    zh: 使用 Seeed Xiao ESP32-C3 构建自定义智能家居设备
-  board: XIAO ESP32-C3
-  category:
-    en: Smart Home
-    zh: 智能家居
-  year: 2026
-  month: 4
-  author:
-    en: Licky's Smart Home Channel
-    zh: Licky's Smart Home Channel
-  author_type: YouTube
-  link: https://www.youtube.com/watch?v=_xxoEm9-eiI
-  image: https://i.ytimg.com/vi/_xxoEm9-eiI/maxresdefault.jpg
 - name:
     en: VFD Display with XIAO ESP32S3 NTP Clock
     zh: VFD 显示 NTP 时钟
