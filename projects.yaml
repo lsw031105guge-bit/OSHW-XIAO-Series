@@ -1,5 +1,217 @@
 projects:
 
+  # ========== 2026-06-01 Community Projects ==========
+  # Source: xiao-weekly-search(2026-06-01)
+
+- name:
+    en: "Building a Tiny Desktop Toy Pet with Xiao ESP32‑S3 & JUSTWAY"
+    zh: "用 XIAO ESP32-S3 & JUSTWAY 打造桌面小宠物"
+  description:
+    en: "A playful desktop companion—a miniature pet that sits on a desk, blinks, reacts to touch, and displays emotions on a tiny OLED screen. Built with Xiao ESP32‑S3 and a 0.9‑inch OLED display housed in a 3D printed enclosure from JUSTWAY."
+    zh: "一个有趣的桌面伴侣——迷你宠物，能眨眼、触摸互动、在 OLED 屏上展示表情。基于 XIAO ESP32-S3 和 0.9 寸 OLED，用 JUSTWAY 3D 打印外壳封装。"
+  board: XIAO ESP32-S3
+  category:
+    en: AI Gadget
+    zh: AI Gadget
+  year: 2025
+  month: 12
+  author:
+    en: Pradeep
+    zh: Pradeep
+  author_type: Hackster
+  link: https://www.hackster.io/pradeeplogu0/building-a-tiny-desktop-toy-pet-with-xiao-esp32-s3-justway-518845
+  image: https://hackster.imgix.net/uploads/attachments/1910351/_UKOHPVVA8u.blob?auto=compress&w=1600&h=1200&fit=min&fm=jpg
+
+- name:
+    en: "F1 Cockpit-Inspired Digital OLED Clock With ESP32"
+    zh: "F1 座舱灵感 ESP32 数字 OLED 时钟"
+  description:
+    en: "An F1-inspired desktop digital clock that replicates the look of a Formula 1 steering wheel display. Built with XIAO ESP32-C3 and a 2.42-inch SPI OLED display with WiFi NTP time sync for accuracy. The custom 3D-printed enclosure was designed in Fusion 360."
+    zh: "一款 F1 风格桌面数字时钟，复刻了 F1 方向盘显示屏的外观。基于 XIAO ESP32-C3 和 2.42 寸 SPI OLED 屏幕，支持 WiFi NTP 网络时间同步。3D 打印外壳由 Fusion 360 设计。"
+  board: XIAO ESP32-C3
+  category:
+    en: AI Gadget
+    zh: AI Gadget
+  year: 2025
+  month: 8
+  author:
+    en: gokux
+    zh: gokux
+  author_type: Instructables
+  link: https://www.instructables.com/F1-Cockpit-Inspired-Digital-OLED-Clock-With-ESP32/
+  image: https://content.instructables.com/FT0/U9H6/MEBV4RV3/FT0U9H6MEBV4RV3.jpg?auto=webp&frame=1&width=2100
+
+- name:
+    en: "Open Kiosk"
+    zh: "Open Kiosk 开源收银系统"
+  description:
+    en: "Build a complete DIY smart POS/kiosk system for retail stores, market vendors, and pop-up shops. Powered by LattePanda MU and XIAO ESP32-S3 with a thermal receipt printer, touchscreen display, and Firebase backend — all in a custom 3D-printed enclosure."
+    zh: "为零售店、集市摊主和快闪店打造的完整 DIY 智能 POS/收银系统。基于 LattePanda MU 和 XIAO ESP32-S3，配备热敏小票打印机、触摸屏和 Firebase 后端，全部封装在 3D 打印外壳中。"
+  board: XIAO ESP32-S3
+  category:
+    en: Tools & Accessories
+    zh: 工具配件
+  year: 2025
+  month: 7
+  author:
+    en: Mukesh_Sankhla
+    zh: Mukesh_Sankhla
+  author_type: Instructables
+  link: https://www.instructables.com/Open-Kiosk/
+  image: https://content.instructables.com/F1Y/7P57/MC2HZIUL/F1Y7P57MC2HZIUL.png?auto=webp&frame=1
+
+- name:
+    en: "Stright: the Smart Haptic Running Cadence Trainer"
+    zh: "Stright：智能触觉跑步步频训练器"
+  description:
+    en: "A DIY wearable that turns a regular sock into a smart running cadence trainer. Using the XIAO MG24 Sense's built-in IMU to detect step rate and a haptic motor at the Achilles tendon for adaptive vibration feedback, it helps runners maintain optimal 170-180 SPM cadence."
+    zh: "一款将普通袜子变成智能跑步步频训练器的可穿戴设备。利用 XIAO MG24 Sense 内置 IMU 检测步频，通过脚踝处的触觉马达提供自适应振动反馈，帮助跑者保持 170-180 SPM 最佳步频。"
+  board: XIAO MG24 Sense
+  category:
+    en: Wearables
+    zh: 可穿戴
+  year: 2025
+  month: 5
+  author:
+    en: Wolf Vierbergen
+    zh: Wolf Vierbergen
+  author_type: Instructables
+  link: https://www.instructables.com/Stright-the-Smart-Haptic-Running-Cadence-Trainer/
+  image: https://content.instructables.com/FGJ/76YN/MB7YGXEK/FGJ76YNMB7YGXEK.png?auto=webp&frame=1
+
+- name:
+    en: "GrayTimer"
+    zh: "GrayTimer 电子墨水屏手表"
+  description:
+    en: "A simple, no-PCB DIY ePaper watch built with XIAO nRF52840. Features 54 rotating watchfaces, partial refresh every minute and full refresh every 10 minutes, with three levels of power optimization."
+    zh: "一款无需 PCB 的简易 DIY 电子墨水屏手表，基于 XIAO nRF52840。拥有 54 款轮换表盘，每分钟局部刷新、每 10 分钟全刷，三级功耗优化。"
+  board: XIAO nRF52840
+  category:
+    en: Wearables
+    zh: 可穿戴
+  year: 2025
+  month: 10
+  author:
+    en: Hari R. (haricane8133)
+    zh: Hari R. (haricane8133)
+  author_type: GitHub
+  link: https://github.com/haricane8133/graytimer
+  image: ''
+
+- name:
+    en: "Building a Barometer with XIAO ESP32C3"
+    zh: "XIAO ESP32C3 气压计/环境监测器"
+  description:
+    en: "A compact environmental monitor built with XIAO ESP32-C3, BME280 sensor, and 16×2 character LCD in a Daiso display cube. Features 4 display modes and logs data to Google Sheets every minute via WiFi. Uses FreeRTOS tasks and NTP time sync."
+    zh: "基于 XIAO ESP32-C3、BME280 传感器和 16×2 字符 LCD 的紧凑型环境监测器，装配于大创展示盒中。支持 4 种显示模式，每分钟通过 WiFi 将数据记录到 Google Sheets，使用 FreeRTOS 和 NTP 时间同步。"
+  board: XIAO ESP32-C3
+  category:
+    en: Smart Home
+    zh: 智能家居
+  year: 2025
+  month: 11
+  author:
+    en: RR-Inyo
+    zh: RR-Inyo
+  author_type: Web
+  link: https://negligible.hatenablog.com/entry/2025/11/19/014010
+  image: https://cdn.image.st-hatena.com/image/scale/8d1c69186cdaab822ec3b35ccb2bf0c2d476a6bf/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fs%2Fs-inoue2010%2F20251106%2F20251106164948.png
+
+- name:
+    en: "SpinDuel"
+    zh: "SpinDuel 旋转对决挑战"
+  description:
+    en: "An interactive spinning top game with companion iOS app. Built with XIAO nRF52840 Sense, it uses precision IMU sensors to track spin time and shares results via Bluetooth BLE. Includes custom 3D-printed spinner enclosure and pre-compiled UF2 firmware."
+    zh: "一款带 iOS 配套 App 的互动陀螺对战游戏。基于 XIAO nRF52840 Sense，利用 IMU 传感器精确追踪旋转时间并通过蓝牙 BLE 实时分享成绩。含 3D 打印陀螺外壳和预编译 UF2 固件。"
+  board: XIAO nRF52840 Sense
+  category:
+    en: AI Gadget
+    zh: AI Gadget
+  year: 2025
+  month: 8
+  author:
+    en: Simone Eisele (SmonSE)
+    zh: Simone Eisele (SmonSE)
+  author_type: GitHub
+  link: https://github.com/SmonSE/SpinDuelApp
+  image: ''
+
+- name:
+    en: "ESPresense on XIAO ESP32C3"
+    zh: "XIAO ESP32C3 搭建 ESPresense 存在检测"
+  description:
+    en: "A comprehensive guide to setting up ESPresense BLE presence detection on XIAO ESP32-C3 boards for Home Assistant. Deployed 20 units for room-level tracking with Apple IRK support and MQTT integration, enabling millisecond-precise home/away automation."
+    zh: "在 XIAO ESP32-C3 上搭建 ESPresense BLE 存在检测的完整教程。部署 20 个节点实现房间级追踪，支持 Apple IRK 和 MQTT 集成，实现毫秒级精准的离家/回家自动化。"
+  board: XIAO ESP32-C3
+  category:
+    en: Smart Home
+    zh: 智能家居
+  year: 2025
+  month: 3
+  author:
+    en: Mikael Bendiksen
+    zh: Mikael Bendiksen
+  author_type: Web
+  link: https://bendiksens.net/posts/espresense/
+  image: https://bendiksens.net/images/Pasted%20image%2020250325212527.png
+
+- name:
+    en: "HomeAssistant Epaper Screen"
+    zh: "Home Assistant 电子墨水屏仪表盘"
+  description:
+    en: "A DIY Home Assistant ePaper dashboard built with XIAO ESP32-C3, Seeed Studio 7.5-inch monochrome eInk display, and ePaper Breakout Board. Uses ESPHome with YAML configuration for at-a-glance smart home information display."
+    zh: "基于 XIAO ESP32-C3、Seeed 7.5 寸黑白电子墨水屏和 ePaper 扩展板的 Home Assistant 仪表盘。使用 ESPHome YAML 配置，实现智能家居信息一目了然的展示。"
+  board: XIAO ESP32-C3
+  category:
+    en: Smart Home
+    zh: 智能家居
+  year: 2025
+  month: 4
+  author:
+    en: Mikael Bendiksen
+    zh: Mikael Bendiksen
+  author_type: Web
+  link: https://bendiksens.net/posts/homeassistant-epaper-screen/
+  image: https://bendiksens.net/images/25-03-31%2022-53-02%204265.jpg
+
+- name:
+    en: "Home Assistant climate on Seeed Studio round screen"
+    zh: "Seeed 圆形屏幕 Home Assistant 气候仪表盘"
+  description:
+    en: "A compact Home Assistant climate dashboard on Seeed Studio's 1.28-inch round TFT display powered by XIAO ESP32-C3. Displays 2 temperature + humidity zones, HVAC modes, and power draw with auto-dim, touch-to-wake, and auto-off features."
+    zh: "基于 XIAO ESP32-C3 和 Seeed 1.28 寸圆形 TFT 屏幕的 Home Assistant 气候仪表盘。显示 2 组温湿度、HVAC 模式和功耗，支持自动调暗、触摸唤醒和离家/夜间自动关闭。"
+  board: XIAO ESP32-C3
+  category:
+    en: Smart Home
+    zh: 智能家居
+  year: 2025
+  month: 9
+  author:
+    en: mistic100
+    zh: mistic100
+  author_type: GitHub
+  link: https://github.com/mistic100/xiao-round-screen-thermometer
+  image: https://raw.githubusercontent.com/mistic100/xiao-round-screen-thermometer/main/preview.png
+
+- name:
+    en: "Kelvyn—A Direct Temperature Sensor for the iPhone"
+    zh: "Kelvyn——iPhone 直连温度传感器"
+  description:
+    en: "A tiny BLE temperature sensor built around XIAO ESP32-C6 with DS18B20 or SHT41. Weighs 1/2 oz, costs ~$10, with LED blink readout, companion iOS Swift app with graphs, and Strava integration via heart rate monitor spoofing."
+    zh: "基于 XIAO ESP32-C6 的超小型 BLE 温度传感器，仅重 14 克，成本约 $10。支持 DS18B20/SHT41 传感器、LED 闪烁读数和 iOS Swift 配套 App，可通过模拟心率带接入 Strava。"
+  board: XIAO ESP32-C6
+  category:
+    en: AI Gadget
+    zh: AI Gadget
+  year: 2025
+  month: 10
+  author:
+    en: rabbitcreek
+    zh: rabbitcreek
+  author_type: Instructables
+  link: https://www.instructables.com/Kelvyn-A-Direct-Temperature-Sensor-for-the-IPhone/
+  image: https://content.instructables.com/FCE/XBXA/MGJQ8E68/FCEXBXAMGJQ8E68.jpg?frame=true&width=660&height=1024&fit=bounds
+
   # ========== 2026-05-11 Community Projects ==========
   # Source: xiao-weekly-search(2026-05-11)
   # ⚠️ 2026-05-18 重抓修正版 — YouTube enrichment 数据全部重新验证
